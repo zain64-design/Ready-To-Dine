@@ -39,13 +39,13 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <h6>The Capital Grille</h6>
                                         <ul>
-                                            <li class="icon star-icon">4.7(223)</li>
-                                            <li class="icon locate-icon">1.8 km away</li>
+                                            <li class="icon star-icon"><a href="reviews.php">4.7(223)</a></li>
+                                            <li class="icon locate-icon"><a href="void:;">1.8 km away</a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="rt-area">
-                                    <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right book-btn">Book Your
+                                    <a href="book-table.php" class="btn ct-btn-prim hvr-bounce-to-right book-btn">Book Your
                                         Arrival Time</a>
                                 </div>
                             </div>
@@ -104,12 +104,14 @@ include 'includes/header.php';
                                     <li>
                                         <input type="checkbox" class="btn-check" name="allergies-options" id="option11"
                                             autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option11">Lactose Intolerance</label>
+                                        <label class="btn btn-secondary ct-rd" for="option11">Lactose
+                                            Intolerance</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" class="btn-check" name="allergies-options" id="option22"
                                             autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option22">Fructose Intolerance</label>
+                                        <label class="btn btn-secondary ct-rd" for="option22">Fructose
+                                            Intolerance</label>
                                     </li>
                                     <li>
                                         <input type="checkbox" class="btn-check" name="allergies-options" id="option33"
@@ -174,148 +176,156 @@ include 'includes/header.php';
                                 <div class="tab-content" id="pills-tabContent">
                                     <div class="tab-pane fade show active" id="pills-1" role="tabpanel"
                                         aria-labelledby="pills-1-tab" tabindex="0">
-                                        <h6>Special Deals</h6>
-                                        <div class="row">
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                                                <div class="card rest-card">
-                                                    <figure>
-                                                        <img src="assets/images/home/sp1.png" class="img-fluid" alt="">
-                                                    </figure>
-                                                    <div class="desc">
-                                                        <div class="tp-area">
-                                                            <div class="lt-box">
-                                                                <h6>Ultimate Platter Feast</h6>
+                                        <div class="deals-info">
+                                            <h6>Special Deals</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="md-area">
-                                                            <div class="lt-box">
-                                                                <h6>$95 USD</h6>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="btm-area">
-                                                            <a href="void:;"
-                                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                More</a>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                                                <div class="card rest-card">
-                                                    <figure>
-                                                        <img src="assets/images/home/sp1.png" class="img-fluid" alt="">
-                                                    </figure>
-                                                    <div class="desc">
-                                                        <div class="tp-area">
-                                                            <div class="lt-box">
-                                                                <h6>Ultimate Platter Feast</h6>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="md-area">
-                                                            <div class="lt-box">
-                                                                <h6>$95 USD</h6>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="btm-area">
-                                                            <a href="void:;"
-                                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                More</a>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                                                <div class="card rest-card">
-                                                    <figure>
-                                                        <img src="assets/images/home/sp1.png" class="img-fluid" alt="">
-                                                    </figure>
-                                                    <div class="desc">
-                                                        <div class="tp-area">
-                                                            <div class="lt-box">
-                                                                <h6>Ultimate Platter Feast</h6>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="md-area">
-                                                            <div class="lt-box">
-                                                                <h6>$95 USD</h6>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="btm-area">
-                                                            <a href="void:;"
-                                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                More</a>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                                                <div class="card rest-card">
-                                                    <figure>
-                                                        <img src="assets/images/home/sp1.png" class="img-fluid" alt="">
-                                                    </figure>
-                                                    <div class="desc">
-                                                        <div class="tp-area">
-                                                            <div class="lt-box">
-                                                                <h6>Ultimate Platter Feast</h6>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="md-area">
-                                                            <div class="lt-box">
-                                                                <h6>$95 USD</h6>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="btm-area">
-                                                            <a href="void:;"
-                                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                More</a>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                                                <div class="card rest-card">
-                                                    <figure>
-                                                        <img src="assets/images/home/sp1.png" class="img-fluid" alt="">
-                                                    </figure>
-                                                    <div class="desc">
-                                                        <div class="tp-area">
-                                                            <div class="lt-box">
-                                                                <h6>Ultimate Platter Feast</h6>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="md-area">
-                                                            <div class="lt-box">
-                                                                <h6>$95 USD</h6>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="btm-area">
-                                                            <a href="void:;"
-                                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                More</a>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
-                                                <div class="card rest-card">
-                                                    <figure>
-                                                        <img src="assets/images/home/sp1.png" class="img-fluid" alt="">
-                                                    </figure>
-                                                    <div class="desc">
-                                                        <div class="tp-area">
-                                                            <div class="lt-box">
-                                                                <h6>Ultimate Platter Feast</h6>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="md-area">
-                                                            <div class="lt-box">
-                                                                <h6>$95 USD</h6>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="btm-area">
-                                                            <a href="void:;"
-                                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                More</a>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -324,30 +334,1109 @@ include 'includes/header.php';
                                     </div>
                                     <div class="tab-pane fade" id="pills-2" role="tabpanel"
                                         aria-labelledby="pills-2-tab" tabindex="0">
+                                        <div class="deals-info">
+                                            <h6>Trending</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-3" role="tabpanel"
                                         aria-labelledby="pills-3-tab" tabindex="0">
-
+                                        <div class="deals-info">
+                                            <h6>Starters</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-4" role="tabpanel"
                                         aria-labelledby="pills-4-tab" tabindex="0">
-
+                                        <div class="deals-info">
+                                            <h6>Burgers</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-5" role="tabpanel"
                                         aria-labelledby="pills-5-tab" tabindex="0">
-
+                                        <div class="deals-info">
+                                            <h6>Sandwiches</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-6" role="tabpanel"
                                         aria-labelledby="pills-6-tab" tabindex="0">
-
+                                        <div class="deals-info">
+                                            <h6>Pasta</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-7" role="tabpanel"
                                         aria-labelledby="pills-7-tab" tabindex="0">
-
+                                        <div class="deals-info">
+                                            <h6>BBQ</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="pills-8" role="tabpanel"
                                         aria-labelledby="pills-8-tab" tabindex="0">
-
+                                        <div class="deals-info">
+                                            <h6>Rolls</h6>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                    <div class="card rest-card">
+                                                        <figure>
+                                                            <img src="assets/images/home/sp1.png" class="img-fluid"
+                                                                alt="">
+                                                        </figure>
+                                                        <div class="desc">
+                                                            <div class="tp-area">
+                                                                <div class="lt-box">
+                                                                    <h6>Ultimate Platter Feast</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="md-area">
+                                                                <div class="lt-box">
+                                                                    <h6>$95 USD</h6>
+                                                                </div>
+                                                            </div>
+                                                            <div class="btm-area">
+                                                                <a href="special-deals.php"
+                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                                                    More</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

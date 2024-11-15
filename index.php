@@ -65,7 +65,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -97,7 +97,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -317,7 +317,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -347,7 +347,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -377,7 +377,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -417,7 +417,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -452,7 +452,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -487,7 +487,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>

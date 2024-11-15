@@ -10,7 +10,7 @@ $(document).ready(function () {
   let filename = url.substring(url.lastIndexOf('/') + 1);
 
     // For inner pages, show light logo and transparent navbar
-    if (filename == "restaurant-details.php" || filename == "services.php" || filename == "gallery.php" || filename == "consultation.php") {
+    if (filename == "restaurant-details.php" || filename == "special-deals.php" || filename == "item-details.php") {
       $("header").addClass("white-logo-page");
   }
 
@@ -49,9 +49,80 @@ $(document).ready(function () {
     }
 });
 
+var quantity = 0;
+$('.quantity-right-plus').click(function (e) {
+  e.preventDefault();
+  var quantity = parseInt($('#quantity').val());
+  $('#quantity').val(quantity + 1);
+});
+
+$('.quantity-left-minus').click(function (e) {
+  e.preventDefault();
+  var quantity = parseInt($('#quantity').val());
+  if (quantity > 0) {
+    $('#quantity').val(quantity - 1);
+  }
+});
+
+
+// global ct select box start
+$('.ct-select .select-box').on('click', function() {
+  $(this).next('.select-options').toggle().toggleClass("open");
+});
+
+$('.ct-select .select-options .option').on('click', function() {
+  var value = $(this).attr('data-value');
+  var text = $(this).text();
+  $(this).closest('.ct-select').find('.selected-option').text(text);
+  $(this).closest('.select-options').removeClass("open").hide();
+
+  console.log("Selected value:", value);
+});
+
+
+$(document).on('click', function(e) {
+  if (!$(e.target).closest('.ct-select').length) {
+    $('.ct-select .select-options').hide();
+  }
+});
 
   });
 
+
+  $(document).ready(function() {
+    setTimeout(function() {
+      // Check the first radio button by default
+      $('.edit-form .payment-method input[type="radio"]').first().prop('checked', true);
+      
+      // Add a red border to the first payment method by default
+      $('.edit-form .payment-method').first().css('border', '1.5px solid #0E70F8');
+  
+      $('.edit-form .payment-method').on('click', function() {
+        // Remove red border from all payment methods
+        $('.edit-form .payment-method').css('border', 'none');
+    
+        // Add red border to the clicked payment method
+        $(this).css('border', '1.5px solid #0E70F8');
+    
+        // Check the radio button inside the clicked payment method
+        $(this).find('input[type="radio"]').prop('checked', true);
+      });
+    }, 1000); // Delay of 1 seconds
+  });
+  
+  document.querySelectorAll(".pagination .page-link").forEach((link) => {
+    link.addEventListener("click", function (event) {
+      event.preventDefault(); // Prevent the default link behavior
+  
+      // Remove the active class from all page items
+      document.querySelectorAll(".pagination .page-item").forEach((item) => {
+        item.classList.remove("active");
+      });
+  
+      // Add the active class to the clicked link's parent item
+      this.parentElement.classList.add("active");
+    });
+  });
 
 
 

@@ -20,13 +20,13 @@
                                 <a class="nav-link hvr-underline-from-left" href="about.php">Bookings</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hvr-underline-from-left" href="services.php">My Account</a>
+                                <a class="nav-link hvr-underline-from-left" href="my-account.php">My Account</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link hvr-underline-from-left" href="gallery.php">Notifications</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link ct-link" href="consultation.php">Theron Branch Suite</a>
+                                <a class="nav-link ct-link" href="location.php">Theron Branch Suite</a>
                             </li>
                         </ul>
                     </div>
