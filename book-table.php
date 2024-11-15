@@ -31,7 +31,7 @@ include 'includes/header.php';
                         <div class="row">
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                                 <div class="quantity-area">
-                                    <label for="">Guests <span>(Including you)</span></label>
+                                    <label for="" class="ct-lbl">Guests <span>(Including you)</span></label>
                                     <div class="input-group">
                                         <span class="input-group-btn">
                                             <button type="button" class="quantity-left-minus btn btn-quant btn-number"
@@ -50,7 +50,7 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="time-select-area">
-                                    <label for="">Select Arrival Time Slot</label>
+                                    <label for="" class="ct-lbl">Select Arrival Time Slot</label>
 
                                     <ul class="time-select">
                                         <li>
@@ -136,6 +136,15 @@ include 'includes/header.php';
                                         </ul>
                                     </div>
                                 </div>
+                                <div class="inp-main">
+                                <label for="">Select Duration</label>
+                                <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" class="form-control ct-inp date-icon" placeholder="Select a Date" required="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                    <img src="assets/images/button-text.png" class="img-fluid text-img" alt="">
+                                </button>
                             </div>
                         </div>
                     </form>

@@ -2127,6 +2127,7 @@ padding-bottom: 55px;
 .sec-booking-table {
   margin-top: 176px;
   padding-top: 47px;
+  padding-bottom: 67px;
 }
 .sec-booking-table .head {
   display: flex;
@@ -2142,14 +2143,17 @@ color: var(--black-clr);
 .sec-booking-table .form-main {
   margin-top: 73px;
 }
-.sec-booking-table .form-main .quantity-area label {
+.sec-booking-table .form-main .quantity-area {
+  margin-bottom: 58px;
+}
+.sec-booking-table .form-main .quantity-area .ct-lbl {
   font-size: 18px;
   font-weight: 700;
   text-transform: capitalize;
   color: var(--black-clr);
   margin-bottom: 17px;
 }
-.sec-booking-table .form-main .quantity-area label span {
+.sec-booking-table .form-main .quantity-area .ct-lbl span {
   font-weight: 400;
 }
 .sec-booking-table .form-main .quantity-area .input-group {
@@ -2212,8 +2216,12 @@ color: var(--black-clr);
 .sec-booking-table .form-main .time-select-area {
 
 }
-.sec-booking-table .form-main .time-select-area label {
-
+.sec-booking-table .form-main .time-select-area .ct-lbl {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 16px;
 }
 .sec-booking-table .form-main .time-select-area .time-select {
   display: flex;
@@ -2223,11 +2231,11 @@ color: var(--black-clr);
 }
 
 .sec-booking-table .form-main .time-select-area .time-select li {
-  margin: 4px 0;
+  margin: 5px 0;
 }
 
 .sec-booking-table .form-main .time-select-area .time-select li:not(:last-child) {
-  margin-right: 16px;
+  margin-right: 22px;
 }
 
 .sec-booking-table .form-main .time-select-area .time-select li .ct-rd {
@@ -2235,33 +2243,35 @@ color: var(--black-clr);
   border: 1px solid var(--sec-clr);
   border-radius: 50px;
   height: 42px;
-  min-width: 120px;
+  min-width: 160px;
   max-width: 100%;
-  padding: 8px 12px;
+  padding: 8px;
   text-transform: capitalize;
   display: inline-block;
   align-content: center;
   text-align: center;
-  font-family: var(--primary-font);
-  color: var(--prim-clr);
-  text-transform: capitalize;
-  font-size: 18px;
+  color: var(--black-clr);
+  text-transform: uppercase;
+  font-size: 16px;
   line-height: normal;
   transition: all 0.2s ease-in-out;
 }
 
 .sec-booking-table .form-main .time-select-area .time-select li .btn-check:checked+.ct-rd {
-  background: var(--white-bg);
-  color: var(--prim-clr);
+  background: var(--prim-bg);
+  color: var(--white-clr);
   box-shadow: none;
   border: 1px solid var(--prim-clr);
 }
 
 .sec-booking-table .form-main .time-select-area .time-select li .ct-rd:hover {
-  background: var(--white-bg);
-  color: var(--prim-clr);
+  background: var(--prim-bg);
+  color: var(--white-clr);
   box-shadow: none;
   border: 1px solid var(--prim-clr);
+}
+.sec-booking-table .form-main .inp-main {
+  margin-bottom: 58px;
 }
 .sec-booking-table .form-main .inp-main label {
   font-size: 18px;  
@@ -2320,6 +2330,50 @@ color: var(--black-clr);
   cursor: pointer;
   border-radius: 5px;
 }
+
+.sec-booking-table .form-main .inp-main .ct-inp {
+  background: var(--white-bg-2);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  height: 48px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--green-clr);
+  position: relative;
+  line-height: normal;
+}
+.sec-booking-table .form-main .inp-main .ct-inp::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--green-clr);
+}
+.sec-booking-table .form-main .inp-main .ct-inp::-moz-placeholder { /* Firefox 19+ */
+  color: var(--green-clr);
+}
+.sec-booking-table .form-main .inp-main .ct-inp:-ms-input-placeholder { /* IE 10+ */
+  color: var(--green-clr);
+}
+.sec-booking-table .form-main .inp-main .ct-inp:-moz-placeholder { /* Firefox 18- */
+  color: var(--green-clr);
+}
+.sec-booking-table .form-main .inp-main .ct-inp[type="date"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+.sec-booking-table .form-main .inp-main .ct-inp.date-icon {
+  background-image: url(../images/calendar.png);
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 18px;
+}
+.sec-booking-table .form-main .submit-btn {
+  height: 72px;
+  border-radius: 16px;
+  font-weight: 600;
+  margin-top: 79px;
+  &:hover .text-img {
+    filter: brightness(0) saturate(100%) invert(39%) sepia(81%) saturate(5330%) hue-rotate(207deg) brightness(100%) contrast(95%);
+  }
+}
+
 /***************************** sec-booking-table close *****************************/
 
 /***************************** sec-review-card-section start *****************************/
