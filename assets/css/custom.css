@@ -64,6 +64,7 @@ main {
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 button:focus {
@@ -802,7 +803,7 @@ footer .center-area p a:hover {
 
 .sec-home-search .nearby-area .near-card .tp-area .lt-box {}
 
-.sec-home-search .nearby-area .near-card .tp-area .lt-box h6 {
+.sec-home-search .nearby-area .near-card .tp-area .lt-box a {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 700;
@@ -1019,7 +1020,7 @@ footer .center-area p a:hover {
 
 .sec-home-search .special-area .special-card .tp-area .lt-box {}
 
-.sec-home-search .special-area .special-card .tp-area .lt-box h6 {
+.sec-home-search .special-area .special-card .tp-area .lt-box a {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 700;
@@ -1183,7 +1184,7 @@ footer .center-area p a:hover {
 
 .sec-home-search .featured-area .feature-card .tp-area .lt-box {}
 
-.sec-home-search .featured-area .feature-card .tp-area .lt-box h6 {
+.sec-home-search .featured-area .feature-card .tp-area .lt-box a {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 700;
@@ -1616,7 +1617,7 @@ padding-bottom: 55px;
 
 .sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .lt-box {}
 
-.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .lt-box h6 {
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .lt-box a {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 700;
@@ -1863,7 +1864,7 @@ padding-bottom: 55px;
 
 .sec-special-deals .special-deals-area .deals-info .rest-card .tp-area .lt-box {}
 
-.sec-special-deals .special-deals-area .deals-info .rest-card .tp-area .lt-box h6 {
+.sec-special-deals .special-deals-area .deals-info .rest-card .tp-area .lt-box a {
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 700;
@@ -2133,6 +2134,11 @@ padding-bottom: 55px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  gap: 16px;
+}
+.sec-booking-table .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
 }
 .sec-booking-table .head h6 {
   font-size: 24px;
@@ -2367,12 +2373,260 @@ color: var(--black-clr);
 .sec-booking-table .form-main .submit-btn {
   height: 72px;
   border-radius: 16px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 700;
   margin-top: 79px;
   &:hover .text-img {
     filter: brightness(0) saturate(100%) invert(39%) sepia(81%) saturate(5330%) hue-rotate(207deg) brightness(100%) contrast(95%);
   }
 }
+
+.sec-booking-table .ct-tabs .nav-pills {
+  gap: 24px;
+}
+
+.sec-booking-table .ct-tabs .nav-pills .nav-item .nav-link {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  font-size: clamp(16px, 3vw, 18px);
+  padding: 4px 0;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-booking-table .ct-tabs .nav-pills .nav-item .nav-link:hover {
+  border-color: var(--prim-clr);
+  color: var(--prim-clr);
+}
+
+.sec-booking-table .ct-tabs .nav-pills .nav-item .nav-link.active {
+  border-color: var(--prim-clr);
+  color: var(--prim-clr);
+}
+
+.sec-booking-table .ct-tabs .tab-pane .thumb {
+  object-fit: cover;
+  object-position: top;
+  height: 488px;
+  width: 100%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.sec-booking-table .form-main .deals-info {
+  margin-top: 65px;
+}
+.sec-booking-table .form-main .deals-info>h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  margin-bottom: 23px;
+}
+.sec-booking-table .form-main .deals-info .rest-card {
+  background: var(--white-bg);
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px 0px var(--shadow);
+  border: none;
+  padding: 8px 8px 11px 8px;
+}
+.sec-booking-table .form-main .deals-info>.row> :not(:nth-last-child(-n+3)) .rest-card {
+  margin-bottom: 55px;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card figure {
+  margin: 0 0 8px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card figure ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.sec-booking-table .form-main .restaurant-detail-area .deals-info .rest-card figure ul li a {
+  font-size: 20px;
+  color: var(--white-clr);
+}
+
+.sec-booking-table .form-main .deals-info .rest-card figure ul li a {
+  font-size: 20px;
+  color: var(--white-clr);
+}
+
+.sec-booking-table .form-main .deals-info .rest-card figure img {
+  width: 100%;
+  border-radius: 8px;
+  height: 167px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .lt-box {}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .lt-box a {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .lt-box small {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: var(--green-clr);
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .rt-box {
+  text-align: right;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .rt-box a {
+  display: block;
+  font-size: 16px;
+  color: var(--prim-clr);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .rt-box a::before {
+  content: "\f044";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--prim-clr);
+  align-self: baseline;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .tp-area .rt-box small {
+  display: block;
+  font-size: 14px;
+  color: var(--green-clr);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.sec-booking-table .form-main .restaurant-detail-area .deals-info .rest-card .tp-area .rt-box small::before {
+  content: "\f005";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--yellow-clr);
+}
+
+.sec-booking-table .form-main .restaurant-detail-area .deals-info .rest-card .md-area {
+  margin: 16px 0 35px;
+}
+.sec-booking-table .form-main .deals-info .rest-card .md-area {
+  margin: 16px 0;
+}
+.sec-booking-table .form-main .deals-info .rest-card .md-area .lt-box {}
+
+.sec-booking-table .form-main .deals-info .rest-card .md-area .lt-box h6 {
+  color: var(--black-clr);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .md-area .lt-box ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .md-area .lt-box ul li {
+  color: var(--black-clr);
+  font-size: 14px;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .btm-area {}
+
+.sec-booking-table .form-main .deals-info .rest-card .btm-area .input-group {
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .btm-area .input-group .input-group-btn .btn-quant {
+  background-color: transparent;
+  border-radius: 0;
+  color: var(--white-clr);
+  padding: 0;
+  height: 57px;
+  width: 57px;
+  border-radius: 50%;
+  border: none;
+  background: var(--prim-bg);
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .btm-area .input-group .input-group-btn .btn-quant:hover {
+  background: var(--prim-bg) !important;
+  color: var(--white-clr) !important;
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .btm-area .input-group .input-group-btn .btn-quant:focus {
+  outline: none;
+  box-shadow: none;
+}
+.sec-booking-table .form-main .deals-info .rest-card .btm-area .input-group .input-group-btn .btn-quant.quantity-left-minus {
+  background: var(--sec-clr);
+  color: var(--prim-clr);
+}
+
+.sec-booking-table .form-main .deals-info .rest-card .btm-area .input-group .input-number {
+  font-weight: 700;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: var(--black-clr);
+  text-align: center;
+  opacity: 100%;
+  border: none;
+  background: var(--sec-clr);
+  height: 59px;
+  border-radius: 50px !important;
+  width: auto;
+  max-width: 100%;
+  flex: inherit;
+}
+
 
 /***************************** sec-booking-table close *****************************/
 

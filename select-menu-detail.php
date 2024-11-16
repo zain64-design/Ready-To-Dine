@@ -17,111 +17,20 @@
 include 'includes/header.php';
 ?>
     <main>
-        <section class="sec-inner-banner restaurant-banner" data-bg-image="assets/images/banner/resturant-banner.png">
+        <section class="sec-booking-table">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="sec-restaurant-detail">
-            <div class="top-bar-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="ct-flex">
-                                <div class="lt-area">
-                                    <figure>
-                                        <img src="assets/images/details/pr1.png" class="img-fluid" alt="">
-                                    </figure>
-                                    <div class="desc">
-                                        <h6>The Capital Grille</h6>
-                                        <ul>
-                                            <li class="icon star-icon"><a href="reviews.php">4.7(223)</a></li>
-                                            <li class="icon locate-icon"><a href="void:;">1.8 km away</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="rt-area">
-                                    <a href="book-table.php" class="btn ct-btn-prim hvr-bounce-to-right book-btn">Book Your
-                                        Arrival Time</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="detail">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
-                                    unknown printer took a galley.</p>
-                            </div>
+                        <div class="head">
+                            <a href="void:;" class="back-btn"><i class="fa-regular fa-arrow-left"></i></a>
+                            <h6>Select Menu Items</h6>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="restaurant-detail-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                            <div class="tags-area">
-                                <h6>Can Accomodate Dietary Preferences</h6>
-                                <ul class="dietary-tags">
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="dietary-options" id="option1"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option1">Halal</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="dietary-options" id="option2"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option2">Gluten Free</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="dietary-options" id="option3"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option3">Dairy Free</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="dietary-options" id="option4"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option4">Vegan</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="dietary-options" id="option5"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option5">Low-carb</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="dietary-options" id="option6"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option6">Paleo</label>
-                                    </li>
-                                </ul>
-
-                                <h6>Can Accomodate Allergies</h6>
-                                <ul class="allergies-tags">
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="allergies-options" id="option11"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option11">Lactose
-                                            Intolerance</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="allergies-options" id="option22"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option22">Fructose
-                                            Intolerance</label>
-                                    </li>
-                                    <li>
-                                        <input type="checkbox" class="btn-check" name="allergies-options" id="option33"
-                                            autocomplete="off">
-                                        <label class="btn btn-secondary ct-rd" for="option33">Gluten Intolerance</label>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="form-main">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-12">
                             <div class="ct-tabs">
                                 <ul class="nav nav-pills justify-content-start" id="pills-tab" role="tablist">
                                     <li class="nav-item" role="presentation">
@@ -188,7 +97,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -197,9 +109,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -213,7 +135,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -222,9 +147,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -238,7 +173,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -247,9 +185,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -263,7 +211,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -272,9 +223,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -288,7 +249,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -297,9 +261,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -313,7 +287,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -322,9 +299,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -346,7 +333,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -355,9 +345,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -371,7 +371,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -380,9 +383,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -396,7 +409,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -405,9 +421,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -421,7 +447,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -430,9 +459,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -446,7 +485,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -455,9 +497,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -471,7 +523,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -480,9 +535,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -504,7 +569,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -513,9 +581,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -529,7 +607,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -538,9 +619,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -554,7 +645,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -563,9 +657,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -579,7 +683,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -588,9 +695,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -604,7 +721,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -613,9 +733,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -629,7 +759,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -638,9 +771,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -662,7 +805,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -671,9 +817,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -687,7 +843,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -696,9 +855,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -712,7 +881,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -721,9 +893,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -737,7 +919,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -746,9 +931,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -762,7 +957,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -771,9 +969,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -787,7 +995,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -796,9 +1007,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -820,7 +1041,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -829,9 +1053,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -845,7 +1079,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -854,9 +1091,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -870,7 +1117,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -879,9 +1129,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -895,7 +1155,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -904,9 +1167,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -920,7 +1193,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -929,9 +1205,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -945,7 +1231,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -954,9 +1243,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -978,7 +1277,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -987,9 +1289,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1003,7 +1315,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1012,9 +1327,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1028,7 +1353,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1037,9 +1365,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1053,7 +1391,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1062,9 +1403,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1078,7 +1429,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1087,9 +1441,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1103,7 +1467,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1112,9 +1479,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1136,7 +1513,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1145,9 +1525,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1161,7 +1551,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1170,9 +1563,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1186,7 +1589,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1195,9 +1601,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1211,7 +1627,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1220,9 +1639,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1236,7 +1665,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1245,9 +1677,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1261,7 +1703,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1270,9 +1715,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1294,7 +1749,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1303,9 +1761,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1319,7 +1787,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1328,9 +1799,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1344,7 +1825,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1353,9 +1837,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1369,7 +1863,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1378,9 +1875,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1394,7 +1901,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1403,9 +1913,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1419,7 +1939,10 @@ include 'includes/header.php';
                                                         <div class="desc">
                                                             <div class="tp-area">
                                                                 <div class="lt-box">
-                                                                    <a href="special-deals.php">Ultimate Platter Feast</h6>
+                                                                    <a href="item-details.php">Ultimate Platter Feast</a>
+                                                                </div>
+                                                                <div class="rt-box">
+                                                                    <a href="menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1428,9 +1951,19 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                                <a href="special-deals.php"
-                                                                    class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
-                                                                    More</a>
+                                                            <div class="input-group quantity-control">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                                                        <i class="fa-regular fa-minus"></i>
+                                                                    </button>
+                                                                </span>
+                                                                <input type="text" class="quantity-input form-control input-number" value="0" min="1" max="100">
+                                                                <span class="input-group-btn">
+                                                                    <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                                                        <i class="fa-regular fa-plus"></i>
+                                                                    </button>
+                                                                </span>
+                                                            </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1440,8 +1973,14 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                             </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                    continue
+                                </button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </section>

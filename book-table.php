@@ -32,18 +32,15 @@ include 'includes/header.php';
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                                 <div class="quantity-area">
                                     <label for="" class="ct-lbl">Guests <span>(Including you)</span></label>
-                                    <div class="input-group">
+                                    <div class="input-group quantity-control">
                                         <span class="input-group-btn">
-                                            <button type="button" class="quantity-left-minus btn btn-quant btn-number"
-                                                data-type="minus" data-field="">
+                                            <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
                                                 <i class="fa-regular fa-minus"></i>
                                             </button>
                                         </span>
-                                        <input type="text" id="quantity" name="quantity"
-                                            class="form-control input-number" value="10" min="1" max="100">
+                                        <input type="text" class="quantity-input form-control input-number" value="10" min="1" max="100">
                                         <span class="input-group-btn">
-                                            <button type="button" class="quantity-right-plus btn btn-quant btn-number"
-                                                data-type="plus" data-field="">
+                                            <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
                                                 <i class="fa-regular fa-plus"></i>
                                             </button>
                                         </span>
@@ -142,9 +139,12 @@ include 'includes/header.php';
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                <!-- <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
                                     <img src="assets/images/button-text.png" class="img-fluid text-img" alt="">
-                                </button>
+                                </button> -->
+                                <a href="select-menu-detail.php" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                    <img src="assets/images/button-text.png" class="img-fluid text-img" alt="">
+                                </a>
                             </div>
                         </div>
                     </form>

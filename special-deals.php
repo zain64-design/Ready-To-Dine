@@ -62,7 +62,7 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <div class="tp-area">
                                             <div class="lt-box">
-                                                <h6>Crispy Zinger Burger</h6>
+                                                <a href="item-details.php">Crispy Zinger Burger</h6>
                                             </div>
                                         </div>
                                         <div class="md-area">
@@ -84,7 +84,7 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <div class="tp-area">
                                             <div class="lt-box">
-                                                <h6>Crispy Zinger Burger</h6>
+                                                <a href="item-details.php">Crispy Zinger Burger</h6>
                                             </div>
                                         </div>
                                         <div class="md-area">
@@ -106,7 +106,7 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <div class="tp-area">
                                             <div class="lt-box">
-                                                <h6>Crispy Zinger Burger</h6>
+                                                <a href="item-details.php">Crispy Zinger Burger</h6>
                                             </div>
                                         </div>
                                         <div class="md-area">
@@ -128,7 +128,7 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <div class="tp-area">
                                             <div class="lt-box">
-                                                <h6>Crispy Zinger Burger</h6>
+                                                <a href="item-details.php">Crispy Zinger Burger</h6>
                                             </div>
                                         </div>
                                         <div class="md-area">
@@ -150,7 +150,7 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <div class="tp-area">
                                             <div class="lt-box">
-                                                <h6>Crispy Zinger Burger</h6>
+                                                <a href="item-details.php">Crispy Zinger Burger</h6>
                                             </div>
                                         </div>
                                         <div class="md-area">
@@ -172,7 +172,7 @@ include 'includes/header.php';
                                     <div class="desc">
                                         <div class="tp-area">
                                             <div class="lt-box">
-                                                <h6>Crispy Zinger Burger</h6>
+                                                <a href="item-details.php">Crispy Zinger Burger</h6>
                                             </div>
                                         </div>
                                         <div class="md-area">

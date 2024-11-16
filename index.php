@@ -47,7 +47,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>King Lee’s</h6>
+                                            <a href="restaurant-details.php">King Lee’s</a>
                                             <small>$$Fast Food</small>
                                         </div>
                                         <div class="rt-box">
@@ -79,7 +79,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>Hereford Grill</h6>
+                                            <a href="restaurant-details.php">Hereford Grill</a>
                                             <small>$$Fast Food</small>
                                         </div>
                                         <div class="rt-box">
@@ -111,7 +111,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>The Ledbury</h6>
+                                            <a href="restaurant-details.php">The Ledbury</a>
                                             <small>$$Fast Food</small>
                                         </div>
                                         <div class="rt-box">
@@ -304,7 +304,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>Ultimate Platter Feast</h6>
+                                            <a href="restaurant-details.php">Ultimate Platter Feast</a>
                                             <small>King Lee’s Restaurant</small>
                                         </div>
                                         <div class="rt-box">
@@ -334,7 +334,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>Combo Crunch Pack</h6>
+                                            <a href="restaurant-details.php">Combo Crunch Pack</a>
                                             <small>King Lee’s Restaurant</small>
                                         </div>
                                         <div class="rt-box">
@@ -364,7 +364,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>Chinese Rice Feast</h6>
+                                            <a href="restaurant-details.php">Chinese Rice Feast</a>
                                             <small>King Lee’s Restaurant</small>
                                         </div>
                                         <div class="rt-box">
@@ -399,7 +399,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>The Capital Grille</h6>
+                                            <a href="restaurant-details.php">The Capital Grille</a>
                                             <small>$$Fast Food</small>
                                         </div>
                                         <div class="rt-box">
@@ -434,7 +434,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>Hereford Grill</h6>
+                                            <a href="restaurant-details.php">Hereford Grill</a>
                                             <small>$$Fast Food</small>
                                         </div>
                                         <div class="rt-box">
@@ -469,7 +469,7 @@ include 'includes/header.php';
                                 <div class="desc">
                                     <div class="tp-area">
                                         <div class="lt-box">
-                                            <h6>The Ledbury</h6>
+                                            <a href="restaurant-details.php">The Ledbury</a>
                                             <small>$$Fast Food</small>
                                         </div>
                                         <div class="rt-box">
