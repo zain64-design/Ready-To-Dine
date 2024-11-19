@@ -22,8 +22,8 @@ include 'includes/header.php';
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div class="head">
-                            <a href="void:;" class="back-btn"><i class="fa-regular fa-arrow-left"></i></a>
-                            <h6>Select Menu Items</h6>
+                            <a href="confirm-booking.php" class="back-btn"><i class="fa-regular fa-arrow-left"></i></a>
+                            <h6>Edit Menu</h6>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -138,7 +138,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -176,7 +176,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -214,7 +214,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -252,7 +252,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -290,7 +290,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -336,7 +336,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -374,7 +374,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -412,7 +412,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -450,7 +450,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -488,7 +488,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -526,7 +526,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -572,7 +572,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -610,7 +610,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -648,7 +648,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -686,7 +686,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -724,7 +724,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -762,7 +762,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -808,7 +808,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -846,7 +846,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -884,7 +884,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -922,7 +922,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -960,7 +960,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -998,7 +998,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1044,7 +1044,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1082,7 +1082,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1120,7 +1120,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1158,7 +1158,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1196,7 +1196,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1234,7 +1234,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1280,7 +1280,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1318,7 +1318,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1356,7 +1356,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1394,7 +1394,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1432,7 +1432,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1470,7 +1470,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1516,7 +1516,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1554,7 +1554,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1592,7 +1592,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1630,7 +1630,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1668,7 +1668,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1706,7 +1706,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1752,7 +1752,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1790,7 +1790,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1828,7 +1828,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1866,7 +1866,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1904,7 +1904,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1942,7 +1942,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Customize</a>
+                                                                    <a href="edit-menu-customize.php">Customize</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1975,9 +1975,12 @@ include 'includes/header.php';
                             </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                <!-- <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
                                     continue
-                                </button>
+                                </button> -->
+                                <a href="information-detail.php" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                    continue
+                                </a>
                             </div>
                         </div>
                     </form>

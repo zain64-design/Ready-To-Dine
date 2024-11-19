@@ -142,7 +142,7 @@ include 'includes/header.php';
                                 <!-- <button type="submit" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
                                     <img src="assets/images/button-text.png" class="img-fluid text-img" alt="">
                                 </button> -->
-                                <a href="select-menu-detail.php" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                <a href="select-menu-items.php" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
                                     <img src="assets/images/button-text.png" class="img-fluid text-img" alt="">
                                 </a>
                             </div>
