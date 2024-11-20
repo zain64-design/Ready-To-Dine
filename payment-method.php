@@ -47,7 +47,7 @@
                                         <ul class="payment-method-tags">
                                             <li>
                                                 <input type="checkbox" class="btn-check" name="dietary-options" id="option1"
-                                                    autocomplete="off">
+                                                    autocomplete="off" checked>
                                                 <label class="btn btn-secondary ct-rd" for="option1">
                                                     <figure>
                                                         <img src="assets/images/my-account/icons/visa.png" alt="Visa" class="img-fluid">

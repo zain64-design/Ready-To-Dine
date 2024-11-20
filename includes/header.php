@@ -17,7 +17,7 @@
                                 <a class="nav-link anim-active hvr-underline-from-left" href="index.php">home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link hvr-underline-from-left" href="about.php">Bookings</a>
+                                <a class="nav-link hvr-underline-from-left" href="booking.php">Bookings</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link hvr-underline-from-left" href="my-account.php">My Account</a>

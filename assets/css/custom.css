@@ -8,6 +8,7 @@
   --mid-clr: #252525;
   --mid-clr-2: #1f1f1f;
   --mid-clr-3: #212121;
+  --mid-clr-4: #171725;
   --white-clr: #fff;
   --black-clr: #000;
   --grey-clr: #64748b;
@@ -85,6 +86,7 @@ ol {
   margin: 0;
   padding: 0;
 }
+
 
 h1,
 h2,
@@ -213,6 +215,20 @@ section {
   overflow: hidden;
 }
 
+.ct-btn-prim-light {
+  border-radius: 8px;
+  background: var(--sec-clr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  color: var(--prim-clr);
+  border: 2px solid var(--sec-clr);
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
 /* common style close */
 
 /********************* loader styles close *********************/
@@ -335,12 +351,12 @@ section {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
+  overflow: hidden;
 }
 
 .hvr-bounce-to-right-two:before {
@@ -351,7 +367,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--prim-clr-1);
+  background: var(--white-bg);
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
@@ -367,7 +383,9 @@ section {
 .hvr-bounce-to-right-two:hover,
 .hvr-bounce-to-right-two:focus,
 .hvr-bounce-to-right-two:active {
-  color: var(--white-clr) !important;
+  color: var(--prim-clr) !important;
+  background-color: var(--sec-clr) !important;
+  border-color: var(--sec-clr) !important;
 }
 
 .hvr-bounce-to-right-two:hover:before,
@@ -3099,6 +3117,736 @@ main.menu-customize-main {
 
 /***************************** sec-information-detail close *****************************/
 
+/***************************** sec-review-booking start *****************************/
+.sec-review-booking {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 34px;
+}
+
+.sec-review-booking .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-review-booking .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-review-booking .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-review-booking .form-main .submit-btn {
+  height: 72px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.sec-review-booking .form-main {
+  margin-top: 68px;
+}
+.sec-review-booking .form-main .box {
+  background: var(--white-bg);
+  border-radius: 16px;
+  border: none;
+}
+.sec-review-booking .form-main .row>.col-12 .box:not(:last-child) {
+  margin-bottom: 32px;
+}
+.sec-review-booking .form-main .box.item-box {
+  padding: 12px 23px 12px 11px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sec-review-booking .form-main .box.item-box figure {
+  margin-bottom: 0;
+}
+.sec-review-booking .form-main .box.item-box figure .thumb {
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  height: 126px;
+}
+.sec-review-booking .form-main .box.item-box .desc {
+
+}
+.sec-review-booking .form-main .box.item-box .desc h6 {
+  font-weight: 700;
+  color: var(--black-clr);
+  font-size: clamp(18px,2.5vw,24px);
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  line-height: normal;
+}
+.sec-review-booking .form-main .box.item-box .desc ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+}
+.sec-review-booking .form-main .box.item-box .desc ul li {
+}
+.sec-review-booking .form-main .box.item-box .desc ul li.icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-start;
+  max-width: 200px;
+}
+
+.sec-review-booking .form-main .box.item-box .desc ul li.icon.pin-icon::before {
+  content: "\f3c5";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--prim-clr);
+}
+
+.sec-review-booking .form-main .box.item-box .desc ul li.icon.locate-icon::before {
+  content: "\e63a";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--prim-clr);
+  transform: rotate(35deg);
+}
+.sec-review-booking .form-main .box.item-box .desc ul li a {
+  color: var(--green-clr);
+  font-size: 16px;
+  line-height: normal;
+}
+.sec-review-booking .form-main .box.item-box .reviews {
+  margin: 0 0 0 auto;
+}
+.sec-review-booking .form-main .box.item-box .reviews ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sec-review-booking .form-main .box.item-box .reviews ul li span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--black-clr);
+}
+.sec-review-booking .form-main .box.item-box .reviews ul li a {
+  color: var(--yellow-clr);
+  font-size: 14px;
+}
+.sec-review-booking .form-main .box.item-box .reviews small {
+  display: block;
+  color: var(--green-clr);
+  font-size: 18px;
+}
+.sec-review-booking .form-main .box.info-box {
+  padding: 17px 24px 13px;
+}
+.sec-review-booking .form-main .box.info-box h6 {
+  font-weight: 700;
+  color: var(--black-clr);
+  font-size: clamp(18px,2.5vw,24px);
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  line-height: normal;
+}
+.sec-review-booking .form-main .box.info-box ul {
+  
+}
+.sec-review-booking .form-main .box.info-box ul li {
+  color: var(--black-clr);
+  font-size: clamp(14px,2vw,18px);
+  text-transform: capitalize;
+  line-height: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-review-booking .form-main .box.info-box ul li:not(:last-child) {
+  margin-bottom: 18px;
+}
+.sec-review-booking .form-main .box.info-box ul li span {
+  font-weight: 400;
+}
+.sec-review-booking .form-main .box.menu-box {
+  padding: 17px 24px 20px;
+} 
+.sec-review-booking .form-main .box.menu-box .tp-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+.sec-review-booking .form-main .box.menu-box .tp-area h6 {
+  font-weight: 700;
+  color: var(--black-clr);
+  font-size: clamp(18px,2.5vw,24px);
+  text-transform: capitalize;
+  line-height: normal;
+}
+.sec-review-booking .form-main .box.menu-box .tp-area .edit-btn {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--prim-clr);
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+.sec-review-booking .form-main .box.menu-box .tp-area .edit-btn::before {
+  content: '';
+  background: url(../images/reviews/edit-icon.png) center/contain no-repeat;
+  height: 26px;
+  width: 26px;
+  display: inline-flex;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box:not(:last-child) {
+  margin-bottom: 24px;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box .total-count small {
+  color: var(--grey-clr);
+  font-size: 18px;
+  line-height: normal;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box figure {
+  margin-bottom: 0;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box figure img {
+  height: 57px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box .desc {
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box .desc a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box .desc span {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+  font-weight: 500;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box .remove-icon {
+  margin: 0 0 0 auto;
+}
+.sec-review-booking .form-main .box.menu-box .items-area .item-box .remove-icon a {
+  color: var(--grey-clr);
+  font-size: 18px;
+}
+.sec-review-booking .form-main .box.menu-box .check-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+  margin-top: 33px;
+}
+.sec-review-booking .form-main .box.menu-box .check-area .form-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  cursor: pointer;
+  justify-content: flex-start;
+  margin-bottom: 0;
+}
+
+.sec-review-booking .form-main .box.menu-box .check-area .form-check .form-check-label {
+  color: var(--black-clr);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  cursor: pointer;
+}
+
+.sec-review-booking .form-main .box.menu-box .check-area .form-check .form-check-input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  border: 0.13rem solid var(--black-clr);
+  border-radius: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+}
+.sec-review-booking .form-main .box.menu-box .check-area .form-check .form-check-input[type="checkbox"]:checked {
+background-color: var(--black-bg);
+--bs-form-check-bg-image: url(../images/notification/check-solid.svg);
+background-size: 15px 15px;
+}
+
+.sec-review-booking .form-main .box.pay-box {
+  padding: 21px 20px;
+  height: 100%;
+}
+.sec-review-booking .form-main .box.pay-box .inp-main .tp-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.sec-review-booking .form-main .box.pay-box .inp-main .tp-area label {
+  font-weight: 700;
+  color: var(--mid-clr-4);
+  font-size: 16px;
+  text-transform: capitalize;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.sec-review-booking .form-main .box.pay-box .inp-main .tp-area .edit-btn {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--prim-clr);
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+/* .sec-review-booking .form-main .box.pay-box .inp-main .tp-area .edit-btn::before {
+  content: '';
+  background: url(../images/reviews/edit-icon.png) center/contain no-repeat;
+  height: 26px;
+  width: 26px;
+  display: inline-flex;
+} */
+.sec-review-booking .form-main .box.pay-box .inp-main .tp-area a img {
+  object-fit: contain;
+  object-position: center;
+  height: 34px;
+  width: 34px;
+  display: inline-flex;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-cd {
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--prim-clr);
+  font-size: 16px;
+  text-align: right;
+  background-color: var(--white-bg);
+  background-image: url(../images/my-account/icons/visa.png);
+  background-repeat: no-repeat;
+  background-position: left 0.5rem center;
+  background-size: 40px 19px;
+  padding-left: 50px;
+}
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro {
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-clr-6);
+  background: var(--grey-clr-8);
+  font-size: 14px;
+  color: var(--grey-clr);
+  padding-right: 50px;
+}
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+/* Chrome, Safari, Edge, Opera */
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro::-webkit-outer-spin-button,
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .ct-inp-pro[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .input-main .apply-btn {
+  color: var(--prim-clr);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main label {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 17px;
+}
+
+
+.sec-review-booking .form-main .box.pay-box .inp-main .ct-select {
+  background: var(--white-bg-2);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  height: 48px;
+  width: 100%;
+  font-size: 16px;
+  color: var(--green-clr);
+  position: relative;
+  line-height: normal;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .ct-select .select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .ct-select .select-box i {
+  display: inline-flex;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .ct-select .select-box i img {
+  display: block;
+  height: auto;
+  width: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .ct-select .select-options {
+  display: none;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background: var(--white-bg-2);
+  border: 1px solid var(--grey-clr-6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  z-index: 100;
+}
+
+.sec-review-booking .form-main .box.pay-box .inp-main .ct-select .select-options .option {
+  padding: 8px 0;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.sec-review-booking .form-main .box.pay-box .total-area {
+  margin-top: 50px;
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  color: var(--black-clr);
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li h6,.sec-review-booking .form-main .box.pay-box .total-area ul li span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li h6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li h6.info-icon::after {
+  content: '';
+  background: url(../images/reviews/info.png) center/contain no-repeat;
+  height: 16px;
+  width: 16px;
+  display: inline-flex;
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li h6 small {
+  font-size: 14px;
+  color: var(--green-clr);
+  font-weight: 400;
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li:last-child>h6 {
+  font-weight: 700;
+}
+.sec-review-booking .form-main .box.pay-box .total-area ul li:last-child>span {
+  font-weight: 700;
+}
+
+/***************************** sec-review-booking close *****************************/
+
+/***************************** sec-booking start *****************************/
+.sec-booking {
+
+}
+.sec-booking {
+  margin-top: 132px;
+  padding-top: 47px;
+  padding-bottom: 30px;
+}
+
+.sec-booking .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.sec-booking .head .logo {
+  height: 37px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.sec-booking .head h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-booking .ct-tabs .nav-pills {
+  gap: 24px;
+  margin: 52px 0 67px;
+}
+
+.sec-booking .ct-tabs .nav-pills .nav-item .nav-link {
+  background: var(--sec-clr);
+  border: none;
+  color: var(--prim-clr);
+  text-transform: capitalize;
+  font-size: clamp(16px, 3vw, 24px);
+  height: 53px;
+  min-width: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-booking .ct-tabs .nav-pills .nav-item .nav-link:hover {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+}
+
+.sec-booking .ct-tabs .nav-pills .nav-item .nav-link.active {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+}
+.sec-booking .deals-info>h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  margin-bottom: 33px;
+}
+.sec-booking .deals-info .feature-card {
+  background: var(--white-bg);
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px 0px var(--shadow);
+  border: none;
+  padding: 8px;
+  margin-bottom: 32px;
+}
+
+.sec-booking .deals-info .feature-card figure {
+  margin: 0 0 8px 0;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.sec-booking .deals-info .feature-card figure::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, #000 -16.47%, rgba(0, 0, 0, 0.00) 63.77%);
+}
+
+.sec-booking .deals-info .feature-card figure ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.sec-booking .deals-info .feature-card figure ul li a {
+  font-size: 14px;
+  color: var(--white-clr);
+}
+
+.sec-booking .deals-info .feature-card figure img {
+  width: 100%;
+  border-radius: 8px;
+  height: 167px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sec-booking .deals-info .feature-card .tp-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sec-booking .deals-info .feature-card .tp-area .lt-box {}
+
+.sec-booking .deals-info .feature-card .tp-area .lt-box a {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  margin-bottom: 8px;
+}
+
+.sec-booking .deals-info .feature-card .tp-area .lt-box small {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--green-clr);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  max-width: 213px;
+}
+.sec-booking .deals-info .feature-card .tp-area .lt-box small::before {
+  content: '\f3c5';
+  font-family: 'Font Awesome 6 Pro';
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--prim-clr);
+}
+
+.sec-booking .deals-info .feature-card .tp-area .rt-box {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sec-booking .deals-info .feature-card .tp-area .rt-box span {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black-clr);
+  letter-spacing: -0.16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.sec-booking .deals-info .feature-card .tp-area .rt-box span::before {
+  content: "\e63a";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--prim-clr);
+  transform: rotate(35deg);
+  align-self: baseline;
+}
+
+.sec-booking .deals-info .feature-card .tp-area .rt-box small {
+  display: block;
+  font-size: 18px;
+  color: var(--green-clr);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.sec-booking .deals-info .feature-card .tp-area .rt-box small::before {
+  content: "\f005";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--yellow-clr);
+}
+.sec-booking .deals-info .feature-card .btm-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 16px;
+}
+
+.sec-booking .deals-info .feature-card .btm-area .more-btn,.sec-booking .deals-info .feature-card .btm-area .cancle-btn {
+  height: 51px;
+  font-size: 16px;
+  max-width: 47%;
+}
+
+.sec-booking .deals-info .feature-card .btm-area .contact-btn {
+  height: 51px;
+  font-size: 16px;
+}
+
+/***************************** sec-booking close *****************************/
+
 
 /* huzman css start */
 /***************************** sec-review-card-section start *****************************/
@@ -4759,6 +5507,94 @@ section.login-page.sign-up {
 .login-form-main.reset-password-form form.login-form a.login-btn:active:before {
   background-color: var(--prim-bg);
   border-radius: 16px;
+}
+
+.booking-modal {
+  max-width: 800px;
+}
+.booking-modal .modal-content {
+  border-radius: 16px;
+}
+.booking-modal .modal-content .modal-body {
+  padding: 45px;
+}
+.booking-modal .modal-content .modal-body .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 1;
+}
+.booking-modal .modal-content .modal-body .modal-body-form figure img {
+  height: 78px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+  display: block;
+}
+.booking-modal .modal-content .modal-body .modal-body-form p {
+  font-size: 18px;
+  color: var(--black-clr);
+  line-height: 30px;
+  text-align: center;
+}
+
+.reset-password-modal {
+  max-width: 725px;
+}
+
+.reset-password-modal .modal-content {
+  border-radius: 24px;
+}
+
+.reset-password-modal .modal-body {
+  padding: 24px 40px;
+  background-color: var(--white-clr);
+  border-radius: 24px !important;
+  box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.10);
+}
+
+.reset-password-modal .modal-body .modal-body-form {
+  text-align: center;
+}
+
+.reset-password-modal .modal-body .modal-body-form figure {
+  margin-top: 40px;
+}
+
+.reset-password-modal .modal-body .modal-body-form figure img {}
+
+.reset-password-modal .modal-body .modal-body-form h2 {
+  color: var(--black-clr);
+  text-align: center;
+  font-family: var(--font-1);
+  font-size: clamp(18px, 1.5vw, 24px);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.reset-password-modal .modal-body .modal-body-form p {
+  color: var(--black-clr);
+  text-align: center;
+  font-family: var(--font-1);
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 78%;
+  margin: 0 auto 30px;
+}
+
+.reset-password-modal .modal-body .modal-body-form button {
+  height: 56px;
+  border-radius: 19px;
+  font-family: var(--font-1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  /* 100% */
 }
 
 /* Reset Password Page End */

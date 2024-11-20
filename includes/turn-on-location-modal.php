@@ -25,7 +25,7 @@
 </div>
 <!-- PopUp Modal End Here -->
 
-<style>
+<!-- <style>
     .reset-password-modal {
         display: flex;
         align-items: center;
@@ -108,4 +108,4 @@
         font-weight: 400;
         line-height: clamp(18px, 1.5vw, 24px);
     }
-</style>
+</style> -->
