@@ -110,9 +110,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <a href="diners-menu.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Diner’s
                                                                         Menu</a>
                                                                 </div>
@@ -165,9 +165,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <a href="diners-menu.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Diner’s
                                                                         Menu</a>
                                                                 </div>
@@ -220,9 +220,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <a href="diners-menu.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Diner’s
                                                                         Menu</a>
                                                                 </div>
@@ -275,9 +275,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <a href="diners-menu.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Diner’s
                                                                         Menu</a>
                                                                 </div>
@@ -330,9 +330,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <a href="diners-menu.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Diner’s
                                                                         Menu</a>
                                                                 </div>
@@ -385,9 +385,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <a href="diners-menu.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Diner’s
                                                                         Menu</a>
                                                                 </div>
@@ -444,11 +444,11 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -495,11 +495,11 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -546,11 +546,11 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -597,11 +597,11 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -648,11 +648,11 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -699,11 +699,11 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Cancel</a>
-                                                                    <a href="void:;"
+                                                                    <a href="cancellation-reason.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Cancel</a>
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -754,9 +754,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -803,9 +803,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -852,9 +852,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -901,9 +901,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -950,9 +950,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -999,9 +999,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#contactModal"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Contact
-                                                                        Restaurant</a>
+                                                                        Restaurant</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1055,9 +1055,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Re-Book</a>
-                                                                    <a href="void:;"
+                                                                    <a href="re-book-table.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Re-Book</a>
+                                                                    <a href="write-review.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Write
                                                                         a Review</a>
                                                                 </div>
@@ -1106,9 +1106,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Re-Book</a>
-                                                                    <a href="void:;"
+                                                                    <a href="re-book-table.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Re-Book</a>
+                                                                    <a href="write-review.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Write
                                                                         a Review</a>
                                                                 </div>
@@ -1157,9 +1157,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Re-Book</a>
-                                                                    <a href="void:;"
+                                                                    <a href="re-book-table.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Re-Book</a>
+                                                                    <a href="write-review.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Write
                                                                         a Review</a>
                                                                 </div>
@@ -1208,9 +1208,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Re-Book</a>
-                                                                    <a href="void:;"
+                                                                    <a href="re-book-table.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Re-Book</a>
+                                                                    <a href="write-review.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Write
                                                                         a Review</a>
                                                                 </div>
@@ -1259,9 +1259,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Re-Book</a>
-                                                                    <a href="void:;"
+                                                                    <a href="re-book-table.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Re-Book</a>
+                                                                    <a href="write-review.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Write
                                                                         a Review</a>
                                                                 </div>
@@ -1310,9 +1310,9 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="void:;"
-                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancle-btn">Re-Book</a>
-                                                                    <a href="void:;"
+                                                                    <a href="re-book-table.php"
+                                                                        class="btn ct-btn-prim-light hvr-bounce-to-right-two cancel-btn">Re-Book</a>
+                                                                    <a href="write-review.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right more-btn">Write
                                                                         a Review</a>
                                                                 </div>
@@ -1368,7 +1368,7 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="book-table.php"
+                                                                    <a href="re-book-table.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Re-Book</a>
                                                                 </div>
                                                             </div>
@@ -1416,7 +1416,7 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="book-table.php"
+                                                                    <a href="re-book-table.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Re-Book</a>
                                                                 </div>
                                                             </div>
@@ -1464,7 +1464,7 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="book-table.php"
+                                                                    <a href="re-book-table.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Re-Book</a>
                                                                 </div>
                                                             </div>
@@ -1512,7 +1512,7 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="book-table.php"
+                                                                    <a href="re-book-table.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Re-Book</a>
                                                                 </div>
                                                             </div>
@@ -1560,7 +1560,7 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="book-table.php"
+                                                                    <a href="re-book-table.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Re-Book</a>
                                                                 </div>
                                                             </div>
@@ -1608,7 +1608,7 @@ include 'includes/header.php';
                                                                     </div>
                                                                 </div>
                                                                 <div class="btm-area">
-                                                                    <a href="book-table.php"
+                                                                    <a href="re-book-table.php"
                                                                         class="btn ct-btn-prim hvr-bounce-to-right contact-btn">Re-Book</a>
                                                                 </div>
                                                             </div>

@@ -19,6 +19,7 @@
   --grey-clr-6: #d2d2d2;
   --grey-clr-7: #e2e8f0;
   --grey-clr-8: #F8F8F8;
+  --grey-clr-9: #E0E1E1;
 
   --green-clr: #436f86;
 
@@ -37,6 +38,8 @@
   --rgb-1: rgba(0, 0, 0, 0);
 
   --shadow: rgba(0, 0, 0, 0.05);
+
+  --border-1: rgb(191 198 204 / 0.5);
 
   --font-1: "Inter", sans-serif;
 }
@@ -3374,7 +3377,6 @@ main.menu-customize-main {
   display: flex;
   align-items: center;
   gap: 12px;
-  flex-wrap: wrap;
   cursor: pointer;
   justify-content: flex-start;
   margin-bottom: 0;
@@ -3834,7 +3836,7 @@ background-size: 15px 15px;
   margin-top: 16px;
 }
 
-.sec-booking .deals-info .feature-card .btm-area .more-btn,.sec-booking .deals-info .feature-card .btm-area .cancle-btn {
+.sec-booking .deals-info .feature-card .btm-area .more-btn,.sec-booking .deals-info .feature-card .btm-area .cancel-btn {
   height: 51px;
   font-size: 16px;
   max-width: 47%;
@@ -3846,6 +3848,316 @@ background-size: 15px 15px;
 }
 
 /***************************** sec-booking close *****************************/
+
+/***************************** sec-dinner-menu start *****************************/
+.sec-dinner-menu {
+
+}
+.sec-dinner-menu {
+  margin-top: 132px;
+  padding-top: 47px;
+  padding-bottom: 60px;
+}
+
+.sec-dinner-menu .head-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 35px;
+}
+.sec-dinner-menu .head-inner .logo {
+  height: 37px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.sec-dinner-menu .head-inner h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-dinner-menu .head-inner .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-dinner-menu .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 9px;
+}
+.sec-dinner-menu .head h5 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-dinner-menu .form-main {
+  margin-top: 70px;
+}
+.sec-dinner-menu .form-main .menu-card {
+  background: var(--sec-clr-2);
+  border: 2px solid var(--grey-clr-9);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 26px;
+}
+.sec-dinner-menu .form-main .menu-card .profile-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 27px;
+}
+.sec-dinner-menu .form-main .menu-card .profile-area figure {
+  margin-bottom: 0;
+}
+.sec-dinner-menu .form-main .menu-card .profile-area figure img {
+  height: 49px;
+  width: 49px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.sec-dinner-menu .form-main .menu-card .profile-area .info-area h5 {
+  color: var(--black-clr);
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 600;
+}
+.sec-dinner-menu .form-main .menu-card .items-area h6 {
+  color: var(--mid-clr-4);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box:not(:last-child) {
+  margin-bottom: 24px;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box .total-count small {
+  color: var(--grey-clr);
+  font-size: 21px;
+  line-height: normal;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box figure {
+  margin-bottom: 0;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box figure img {
+  height: 79px;
+  width: 79px;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: center;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box .desc {
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box .desc a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box .desc span {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+  font-weight: 400;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box .remove-icon {
+  margin: 0 0 0 auto;
+}
+.sec-dinner-menu .form-main .menu-card .items-area .item-box .remove-icon a {
+  color: var(--grey-clr);
+  font-size: 25px;
+}
+
+/***************************** sec-dinner-menu close *****************************/
+
+/***************************** sec-cancellation start *****************************/
+.sec-cancellation {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 60px;
+}
+
+.sec-cancellation .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-cancellation .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-cancellation .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-cancellation .form-main {
+  margin-top: 60px;
+}
+.sec-cancellation .form-main .submit-btn {
+  height: 72px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 24px;
+}
+.sec-cancellation .form-main .check-area .form-check {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.sec-cancellation .form-main .check-area .form-check:not(:last-child) {
+  border-bottom: 2px solid var(--border-1);
+}
+
+.sec-cancellation .form-main .form-check .form-check-label {
+  color: var(--mid-clr-3);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  cursor: pointer;
+}
+
+.sec-cancellation .form-main .form-check .form-check-input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  border: 0.13rem solid var(--grey-clr-4);
+  border-radius: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+  background-color: var(--sec-bg-2);
+}
+.sec-cancellation .form-main .form-check .form-check-input[type="checkbox"]:checked {
+background-color: var(--prim-bg);
+border-color: var(--prim-clr);
+--bs-form-check-bg-image: url(../images/notification/check-solid.svg);
+background-size: 15px 15px;
+}
+.sec-cancellation .inp-txt {
+  margin-top: 40px;
+}
+.sec-cancellation .inp-txt label {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--mid-clr-4);
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.sec-cancellation .inp-txt .ct-text-area {
+  border-radius: 8px;
+  background-color: var(--sec-bg-2);
+  border: 1px solid rgb(0 0 0 / 0.5);
+  font-size: 18px;
+  color: var(--black-clr);
+  padding: 16px;
+}
+.sec-cancellation .inp-txt .ct-text-area::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+}
+
+.sec-cancellation .inp-txt .ct-text-area::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+}
+
+.sec-cancellation .inp-txt .ct-text-area:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+}
+
+.sec-cancellation .inp-txt .ct-text-area:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+}
+/***************************** sec-cancellation close *****************************/
+
+/***************************** contact-modal start *****************************/
+.contact-modal .modal-content {
+  border-radius: 24px;
+}
+.contact-modal .modal-content .modal-body {
+  padding: 37px 24px 27px;
+}
+.contact-modal .modal-content .modal-body .btn-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 1;
+}
+.contact-modal .modal-content .modal-body .desc-area {
+
+}
+.contact-modal .modal-content .modal-body .icon-area {
+  text-align: center;
+}
+.contact-modal .modal-content .modal-body .desc-area h6 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-top: 8px;
+}
+.contact-modal .modal-content .modal-body .desc-area ul {
+  margin-top: 16px;
+}
+.contact-modal .modal-content .modal-body .desc-area ul li {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+}
+.contact-modal .modal-content .modal-body .desc-area ul li:not(:last-child) {
+  margin-bottom: 24px;
+}
+.contact-modal .modal-content .modal-body .desc-area ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/***************************** contact-modal close *****************************/
 
 
 /* huzman css start */
@@ -4272,31 +4584,37 @@ section.sec-review-tab-section {
   color: var(--black-clr);
 }
 
-.write-review-form-section .wrie-rev-user {
+.write-review-form-section .write-rev-user {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14.2px;
 }
 
-.write-review-form-section .wrie-rev-user figure {
+.write-review-form-section .write-rev-user figure {
   margin: 0;
 }
 
-.write-review-form-section .wrie-rev-user figure img {
+.write-review-form-section .write-rev-user figure img {
   width: 46px;
   height: 46px;
 }
 
-.write-review-form-section .wrie-rev-user .rating-user-stars {
+.write-review-form-section .write-rev-user .rating-user-stars {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 31.4px;
 }
 
-.write-review-form-section .wrie-rev-user .rating-user-stars svg {
+.write-review-form-section .write-rev-user .rating-user-stars i {
   cursor: pointer;
+  font-size: 43px;
+  color: #64748B;
+  transition: color 0.3s ease;
+}
+.write-review-form-section .write-rev-user .rating-user-stars i.fa-solid {
+  color: var(--yellow-clr);
 }
 
 .write-review-form-section .write-rev-form {
@@ -4310,17 +4628,18 @@ section.sec-review-tab-section {
   font-family: var(--font-1);
   font-size: clamp(16px, 1.5vw, 18px);
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 24px;
   margin-bottom: 8px;
 }
 
 .write-rev-form .inp-area .file-upload-area {
   border-radius: 16px;
-  border: 1px solid var(--grey-clr-6);
+  border: 1px solid var(--grey-clr-7);
   background: #ffffff;
   padding: 40px 30px;
   text-align: center;
+  min-height: 195px;
 }
 
 .write-rev-form .inp-area .file-upload-area .media-upload-link {
@@ -4348,11 +4667,10 @@ section.sec-review-tab-section {
 .write-review-form-section .write-rev-form .inp-area textarea {
   display: block;
   border-radius: 8px;
-  border: 1px solid var(--grey-clr-6);
+  border: 1px solid var(--grey-clr-7);
   background: #ffffff;
   padding: 12px 16px;
   width: 100%;
-  height: 177px;
   font-family: var(--font-1);
   font-size: clamp(16px, 1.5vw, 18px);
   font-style: normal;
@@ -4367,11 +4685,10 @@ section.sec-review-tab-section {
 }
 
 .write-review-form-section .write-rev-form .inp-area button.save-btn {
-  height: 55px;
-  margin-top: 60px;
+  height: 72px;
+  margin-top: 58px;
   text-align: center;
-  font-family: var(--font-1);
-  font-size: clamp(16px, 1.5vw, 18px);
+  font-size: clamp(16px, 1.5vw, 22px);
   font-style: normal;
   font-weight: 700;
 }
@@ -4740,33 +5057,28 @@ main.edit-profile-main .sec-edit-profile-form {
 
 /***************************** sec-change-password-main start *****************************/
 
-section.sec-change-password-main-head {
+.sec-change-password-main-head {
   padding-top: clamp(150px, 11vw, 250px);
   padding-bottom: clamp(30px, 7vw, 64px);
 }
 
-.sec-change-password-main-head .form-area {
-  text-align: center;
-  position: relative;
+.sec-change-password-main-head .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
-.sec-change-password-main-head .form-area .back-icon-edit {
-  position: absolute;
-  top: 0;
-  left: 0;
+.sec-change-password-main-head .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
 }
 
-.sec-change-password-main-head .form-area {
-  text-align: left;
-}
-
-.sec-change-password-main-head .form-area h5 {
-  margin-left: 60px;
-  color: var(--black-bg);
-  font-family: var(--font-1);
-  font-size: clamp(16px, 2vw, 24px);
-  font-style: normal;
+.sec-change-password-main-head .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
   font-weight: 700;
+  color: var(--black-clr);
 }
 
 .sec-change-password-main .edit-form form .form-group input.password-input-icon {
@@ -5700,12 +6012,12 @@ section.login-page.sign-up {
     justify-content: center;
   }
 
-  .write-review-form-section .wrie-rev-user {
+  .write-review-form-section .write-rev-user {
     display: block;
     text-align: center;
   }
 
-  .write-review-form-section .wrie-rev-user figure {
+  .write-review-form-section .write-rev-user figure {
     margin-bottom: 10px;
   }
 
@@ -5797,12 +6109,12 @@ section.login-page.sign-up {
     justify-content: center;
   }
 
-  .write-review-form-section .wrie-rev-user {
+  .write-review-form-section .write-rev-user {
     display: block;
     text-align: center;
   }
 
-  .write-review-form-section .wrie-rev-user figure {
+  .write-review-form-section .write-rev-user figure {
     margin-bottom: 10px;
   }
 

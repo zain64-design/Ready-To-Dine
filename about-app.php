@@ -21,15 +21,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                        <div class="form-area">
-                            <div class="back-icon-edit">
-                                <a href="my-account.php">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-                                        <path d="M14.6673 8L6.66732 16M6.66732 16L14.6673 24M6.66732 16L25.334 16" stroke="black" stroke-width="2" stroke-linecap="round" />
-                                    </svg>
-                                </a>
-                            </div>
-                            <h5>About App</h5>
+                        <div class="head">
+                            <a href="my-account.php" class="back-btn"><i class="fa-regular fa-arrow-left"></i></a>
+                            <h6>About App</h6>
                         </div>
                     </div>
                 </div>

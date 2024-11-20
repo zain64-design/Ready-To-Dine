@@ -19,8 +19,8 @@
                                 <h6>Links</h6>
                                 <ul>
                                     <li><a href="index.php" class="hvr-underline-from-left-two">home</a></li>
-                                    <li><a href="void:;" class="hvr-underline-from-left-two">Bookings</a></li>
-                                    <li><a href="void:;" class="hvr-underline-from-left-two">Notifications</a></li>
+                                    <li><a href="booking.php" class="hvr-underline-from-left-two">Bookings</a></li>
+                                    <li><a href="notification.php" class="hvr-underline-from-left-two">Notifications</a></li>
                                     <li><a href="my-account.php" class="hvr-underline-from-left-two">My account</a></li>
                                 </ul>
                             </div>

@@ -12,6 +12,7 @@
 <?php include 'turn-on-location-modal.php'; ?>
 <?php include 'booking-success.php'; ?>
 <?php include 'booking-popup.php'; ?>
+<?php include 'contact-modal.php'; ?>
 <script src="assets/js/jquery-3.7.1.min.js"></script>
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
