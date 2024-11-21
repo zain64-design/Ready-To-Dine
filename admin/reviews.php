@@ -22,7 +22,8 @@
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div class="head">
-                            <a href="restaurant-details.php" class="back-btn"><i class="fa-regular fa-arrow-left"></i></a>
+                            <a href="restaurant-details.php" class="back-btn"><i
+                                    class="fa-regular fa-arrow-left"></i></a>
                             <h6>Reviews</h6>
                         </div>
                     </div>
@@ -34,11 +35,12 @@
         <section class="review-card-section">
             <div class="container">
                 <div class="review-card">
-                    <div class="row align-items-end">
+                    <div class="row align-items-start">
                         <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                             <div class="food-image">
                                 <figure>
-                                    <img src="assets/images/reviews/restaurant-featured-image.png" alt="Food Image" class="img-fluid">
+                                    <img src="assets/images/reviews/restaurant-featured-image.png" alt="Food Image"
+                                        class="img-fluid">
                                 </figure>
                             </div>
                         </div>
@@ -94,7 +96,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <a href="write-review.php" class="btn ct-btn-prim hvr-bounce-to-right write-review-btn">Write A Review</a>
                             </div>
                         </div>
                     </div>
@@ -114,16 +115,21 @@
                             <div class="review-tab-head">
                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="most-relevant-tab" data-bs-toggle="tab" data-bs-target="#most-relevant" type="button" role="tab">Most Relevant</button>
+                                        <button class="nav-link active" id="most-relevant-tab" data-bs-toggle="tab"
+                                            data-bs-target="#most-relevant" type="button" role="tab">Most
+                                            Relevant</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="highest-tab" data-bs-toggle="tab" data-bs-target="#highest" type="button" role="tab">Highest</button>
+                                        <button class="nav-link" id="highest-tab" data-bs-toggle="tab"
+                                            data-bs-target="#highest" type="button" role="tab">Highest</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="lowest-tab" data-bs-toggle="tab" data-bs-target="#lowest" type="button" role="tab">Lowest</button>
+                                        <button class="nav-link" id="lowest-tab" data-bs-toggle="tab"
+                                            data-bs-target="#lowest" type="button" role="tab">Lowest</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="newest-tab" data-bs-toggle="tab" data-bs-target="#newest" type="button" role="tab">Newest</button>
+                                        <button class="nav-link" id="newest-tab" data-bs-toggle="tab"
+                                            data-bs-target="#newest" type="button" role="tab">Newest</button>
                                     </li>
                                 </ul>
                             </div>
@@ -135,7 +141,8 @@
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/cropper-grey.svg" alt="Copper Grey" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/cropper-grey.svg"
+                                                                alt="Copper Grey" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -156,14 +163,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emily-rich.svg" alt="Emily Rich" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emily-rich.svg"
+                                                                alt="Emily Rich" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -184,14 +201,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/steve-roert.svg" alt="Steve Roert" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/steve-roert.svg"
+                                                                alt="Steve Roert" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -212,14 +239,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emma-joseph.svg" alt="Emma Joseph" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emma-joseph.svg"
+                                                                alt="Emma Joseph" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -240,14 +277,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/rian-groove.svg" alt="Rian Groove" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/rian-groove.svg"
+                                                                alt="Rian Groove" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -268,7 +315,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -296,7 +352,8 @@
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emily-rich.svg" alt="Emily Rich" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emily-rich.svg"
+                                                                alt="Emily Rich" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -317,14 +374,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/steve-roert.svg" alt="Steve Roert" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/steve-roert.svg"
+                                                                alt="Steve Roert" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -345,14 +412,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emma-joseph.svg" alt="Emma Joseph" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emma-joseph.svg"
+                                                                alt="Emma Joseph" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -373,14 +450,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/rian-groove.svg" alt="Rian Groove" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/rian-groove.svg"
+                                                                alt="Rian Groove" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -401,14 +488,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/cropper-grey.svg" alt="Copper Grey" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/cropper-grey.svg"
+                                                                alt="Copper Grey" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -429,7 +526,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +563,8 @@
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/cropper-grey.svg" alt="Copper Grey" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/cropper-grey.svg"
+                                                                alt="Copper Grey" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -478,14 +585,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emily-rich.svg" alt="Emily Rich" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emily-rich.svg"
+                                                                alt="Emily Rich" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -506,14 +623,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/steve-roert.svg" alt="Steve Roert" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/steve-roert.svg"
+                                                                alt="Steve Roert" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -534,14 +661,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emma-joseph.svg" alt="Emma Joseph" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emma-joseph.svg"
+                                                                alt="Emma Joseph" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -562,14 +699,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/rian-groove.svg" alt="Rian Groove" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/rian-groove.svg"
+                                                                alt="Rian Groove" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -590,7 +737,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -618,7 +774,8 @@
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emily-rich.svg" alt="Emily Rich" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emily-rich.svg"
+                                                                alt="Emily Rich" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -639,14 +796,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/steve-roert.svg" alt="Steve Roert" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/steve-roert.svg"
+                                                                alt="Steve Roert" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -667,14 +834,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/emma-joseph.svg" alt="Emma Joseph" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/emma-joseph.svg"
+                                                                alt="Emma Joseph" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -695,14 +872,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/rian-groove.svg" alt="Rian Groove" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/rian-groove.svg"
+                                                                alt="Rian Groove" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -723,14 +910,24 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                             <div class="review-item">
                                                 <div class="reviewer-info">
                                                     <div class="reviewer-avatar">
                                                         <figure>
-                                                            <img src="assets/images/reviews/profile/cropper-grey.svg" alt="Copper Grey" class="rounded-circle img-fluid">
+                                                            <img src="assets/images/reviews/profile/cropper-grey.svg"
+                                                                alt="Copper Grey" class="rounded-circle img-fluid">
                                                         </figure>
                                                     </div>
                                                     <div class="reviewer-details">
@@ -751,7 +948,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="review-content">
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting
+                                                        industry. Lorem Ipsum has been the industry's standard dummy
+                                                        text ever since the 1500s, when an unknown printer took a galley
+                                                        of type and scrambled it to make a type specimen book. It has
+                                                        survived not only five centuries, but also the leap into
+                                                        electronic typesetting, remaining essentially unchanged. It was
+                                                        popularised in the 1960s with the release of Letraset sheets
+                                                        containing Lorem Ipsum passages, and more recently with desktop
+                                                        publishing software like Aldus PageMaker including versions of
+                                                        Lorem Ipsum.</p>
                                                 </div>
                                             </div>
                                         </div>

@@ -1,0 +1,419 @@
+/***************************** sec-restaurant-detail start *****************************/
+.sec-restaurant-detail {
+  overflow: visible;
+  padding-bottom: 10px;
+}
+
+.sec-restaurant-detail .top-bar-area {
+  margin-top: -3.8%;
+  position: relative;
+  z-index: 1;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area figure {
+  margin: 0;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area figure img {
+  width: 172px;
+  height: 172px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 13px solid var(--white-clr);
+  box-sizing: content-box;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc {
+  margin-bottom: 30px;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc h6 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--green-clr);
+  position: relative;
+  margin-top: 16px;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li:not(:first-child) {
+  padding-left: 16px;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li:not(:last-child) {
+  padding-right: 16px;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 19px;
+  width: 1px;
+  background: var(--green-clr);
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li.icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li.icon.star-icon::before {
+  content: "\f005";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--yellow-clr);
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li.icon.locate-icon::before {
+  content: "\e63a";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--prim-clr);
+  transform: rotate(35deg);
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .lt-area .desc ul li a {
+  color: var(--green-clr);
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .rt-area {
+  margin-bottom: 30px;
+}
+
+.sec-restaurant-detail .top-bar-area .ct-flex .rt-area .book-btn {
+  height: 62px;
+  border-radius: 16px;
+  max-width: 100%;
+  width: 292px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.sec-restaurant-detail .top-bar-area .detail {
+  margin-bottom: 13px;
+}
+
+.sec-restaurant-detail .top-bar-area .detail p {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--black-clr);
+  margin-top: 15px;
+}
+
+.sec-restaurant-detail .tags-area h6 {
+  font-weight: 600;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+  margin: 30px 0 28px;
+}
+
+.sec-restaurant-detail .tags-area .dietary-tags,
+.sec-restaurant-detail .tags-area .allergies-tags {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.sec-restaurant-detail .tags-area .dietary-tags li,
+.sec-restaurant-detail .tags-area .allergies-tags li {
+  margin: 4px 0;
+}
+
+.sec-restaurant-detail .tags-area .dietary-tags li:not(:last-child),
+.sec-restaurant-detail .tags-area .allergies-tags li:not(:last-child) {
+  margin-right: 16px;
+}
+
+.sec-restaurant-detail .tags-area .dietary-tags li .ct-rd,
+.sec-restaurant-detail .tags-area .allergies-tags li .ct-rd {
+  background: var(--sec-clr);
+  border: 1px solid var(--sec-clr);
+  border-radius: 50px;
+  height: 40px;
+  min-width: 130px;
+  max-width: 100%;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--prim-clr);
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-restaurant-detail .tags-area .allergies-tags li .ct-rd {
+  min-width: fit-content;
+}
+
+.sec-restaurant-detail .tags-area .dietary-tags li .btn-check:checked+.ct-rd,
+.sec-restaurant-detail .tags-area .allergies-tags li .btn-check:checked+.ct-rd {
+  background: var(--white-bg);
+  color: var(--prim-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-restaurant-detail .tags-area .dietary-tags li .ct-rd:hover,
+.sec-restaurant-detail .tags-area .allergies-tags li .ct-rd:hover {
+  background: var(--white-bg);
+  color: var(--prim-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-restaurant-detail .restaurant-detail-area h5 {
+  position: relative;
+  font-weight: 700;
+  font-size: clamp(16px, 1.5vw, 24px);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area h5::before {
+  content: "";
+  display: inline-flex;
+  background: url(../images/home/deals-icon.png) center/contain no-repeat;
+  height: 30px;
+  width: 26px;
+}
+
+.sec-restaurant-detail .ct-tabs {
+  margin-top: clamp(30px, 6vw, 60px);
+}
+
+.sec-restaurant-detail .ct-tabs .nav-pills {
+  gap: 24px;
+}
+
+.sec-restaurant-detail .ct-tabs .nav-pills .nav-item .nav-link {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  font-size: clamp(16px, 3vw, 18px);
+  padding: 4px 0;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-restaurant-detail .ct-tabs .nav-pills .nav-item .nav-link:hover {
+  border-color: var(--prim-clr);
+  color: var(--prim-clr);
+}
+
+.sec-restaurant-detail .ct-tabs .nav-pills .nav-item .nav-link.active {
+  border-color: var(--prim-clr);
+  color: var(--prim-clr);
+}
+
+.sec-restaurant-detail .ct-tabs .tab-pane .thumb {
+  object-fit: cover;
+  object-position: top;
+  height: 488px;
+  width: 100%;
+  display: block;
+  margin: 0 auto 20px;
+}
+.sec-restaurant-detail .restaurant-detail-area .deals-info {
+  margin-top: 65px;
+}
+.sec-restaurant-detail .restaurant-detail-area .deals-info>h6 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  margin-bottom: 23px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card {
+  background: var(--white-bg);
+  border-radius: 8px;
+  box-shadow: 0px 4px 24px 0px var(--shadow);
+  border: none;
+  padding: 8px 8px 13px 8px;
+  margin-bottom: 55px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card figure {
+  margin: 0 0 8px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card figure ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card figure ul li a {
+  font-size: 20px;
+  color: var(--white-clr);
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card figure ul li a {
+  font-size: 20px;
+  color: var(--white-clr);
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card figure img {
+  width: 100%;
+  border-radius: 8px;
+  height: 167px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .lt-box {}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .lt-box h6 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .lt-box small {
+  font-size: 12px;
+  text-transform: capitalize;
+  color: var(--green-clr);
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .rt-box {
+  text-align: right;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .rt-box span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black-clr);
+  letter-spacing: -0.16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .rt-box span::before {
+  content: "\e63a";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--prim-clr);
+  transform: rotate(35deg);
+  align-self: baseline;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .rt-box small {
+  display: block;
+  font-size: 14px;
+  color: var(--green-clr);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .tp-area .rt-box small::before {
+  content: "\f005";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--yellow-clr);
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .md-area {
+  margin: 16px 0 35px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .md-area .lt-box {}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .md-area .lt-box h6 {
+  color: var(--black-clr);
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .md-area .lt-box ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .md-area .lt-box ul li {
+  color: var(--black-clr);
+  font-size: 14px;
+}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .btm-area {}
+
+.sec-restaurant-detail .restaurant-detail-area .deals-info .rest-card .btm-area .more-btn {
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/***************************** sec-restaurant-detail close *****************************/
