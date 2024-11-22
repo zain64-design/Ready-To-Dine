@@ -232,6 +232,20 @@ section {
   overflow: hidden;
 }
 
+.ct-btn-prim-white {
+  border-radius: 8px;
+  background: var(--white-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  color: var(--prim-clr);
+  border: 2px solid var(--white-clr);
+  text-transform: capitalize;
+  overflow: hidden;
+}
+
 /* common style close */
 
 /********************* loader styles close *********************/
@@ -394,6 +408,59 @@ section {
 .hvr-bounce-to-right-two:hover:before,
 .hvr-bounce-to-right-two:focus:before,
 .hvr-bounce-to-right-two:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+
+
+/* Bounce To Right */
+.hvr-bounce-to-right-three {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  overflow: hidden;
+}
+
+.hvr-bounce-to-right-three:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--prim-bg);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.hvr-bounce-to-right-three:hover,
+.hvr-bounce-to-right-three:focus,
+.hvr-bounce-to-right-three:active {
+  color: var(--white-clr) !important;
+  background-color: var(--white-bg) !important;
+  border-color: var(--white-clr) !important;
+}
+
+.hvr-bounce-to-right-three:hover:before,
+.hvr-bounce-to-right-three:focus:before,
+.hvr-bounce-to-right-three:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
@@ -5419,16 +5486,16 @@ section.login-page.sign-up {
 
 .login-page .login-form-main {
   border-radius: 24px;
-  border: 1px solid var(--white-clr);
   background-blend-mode: normal, lighten;
   backdrop-filter: blur(3.6500000953674316px);
   padding-top: clamp(25px, 4vw, 53px);
   padding-bottom: clamp(25px, 3vw, 40px);
   padding-left: clamp(22px, 3vw, 39px);
   padding-right: clamp(22px, 3vw, 39px);
-  /* position: relative;
-  z-index: 3; */
+  position: relative;
+  z-index: 3;
   background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0.00) 51.97%, #000 102.92%);
+  box-shadow: -0.5px -0.5px 0px #ffffff, 1px 1px 0px #4e4e4e;
 }
 
 /* .login-page .login-form-main:before {
@@ -5799,28 +5866,9 @@ section.login-page.sign-up {
 .login-form-main.reset-password-form form.login-form a.login-btn {
   width: 100%;
   height: 68px;
-  color: var(--prim-bg);
-  font-family: var(--font-1);
   font-size: clamp(18px, 1.5vw, 24px);
-  font-style: normal;
   font-weight: 500;
   line-height: normal;
-  border-radius: 16px;
-  background: var(--white-clr);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: capitalize;
-}
-
-.login-form-main.reset-password-form form.login-form a.login-btn:hover {
-  color: var(--white-clr) !important;
-}
-
-.login-form-main.reset-password-form form.login-form a.login-btn:hover::before,
-.login-form-main.reset-password-form form.login-form a.login-btn:focus:before,
-.login-form-main.reset-password-form form.login-form a.login-btn:active:before {
-  background-color: var(--prim-bg);
   border-radius: 16px;
 }
 
@@ -5914,6 +5962,63 @@ section.login-page.sign-up {
 
 /* Reset Password Page End */
 
+/* Select Role Page start */
+.login-page .login-form-main.select-role-main {}
+
+.login-page .login-form-main.select-role-main figure {
+    margin-bottom: 54px;
+}
+
+.login-page .login-form-main.select-role-main h2 {
+    text-align: center;
+    color: var(--white-clr);
+    font-family: var(--font-1);
+    font-size: clamp(20px, 1.5vw, 24px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    margin-bottom: 7px;
+}
+
+.login-page .login-form-main.select-role-main p {
+    color: var(--white-clr);
+    font-family: var(--font-1);
+    font-size: clamp(16px, 1.5vw, 18px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.login-page .login-form-main.select-role-main a.login-btn {
+    color: var(--white-clr);
+    font-family: var(--font-1);
+    font-size: clamp(18px, 1.5vw, 24px);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 16px;
+    height: 68px;
+}
+
+.login-page .login-form-main.select-role-main a.login-btn:nth-child(4) {
+    margin-top: clamp(22px, 2vw, 28px);
+    margin-bottom: clamp(22px, 2vw, 28px);
+}
+
+.login-page .login-form-main.select-role-main a.login-btn:nth-child(5) {
+    color: var(--prim-clr);
+}
+
+/* .login-page .login-form-main.select-role-main a.login-btn:nth-child(5):hover {
+    color: var(--white-clr) !important;
+}
+
+.login-page .login-form-main.select-role-main a.login-btn:nth-child(5):hover::before {
+    background: var(--prim-bg);
+} */
+/* Select Role Page End */
 /* huzman css close */
 
 @media only screen and (min-width: 1600px) and (max-width: 1920px) {}

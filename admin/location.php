@@ -16,6 +16,11 @@
     <?php
 include 'includes/header.php';
 ?>
+<style>
+    header,footer {
+        display: none;
+    }
+</style>
     <main>
         <section class="sec-location">
             <div class="container-fluid p-md-0 p-lg-0 p-xl-0 p-xxl-0">

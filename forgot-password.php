@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                                         <button type="submit" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn ct-btn-prim hvr-bounce-to-right login-btn">Get Reset Link</button>
-                                        <a href="login.php" class="btn ct-btn-prim-outline hvr-bounce-to-right login-btn">Back to Login</a>
+                                        <a href="login.php" class="btn ct-btn-prim-white hvr-bounce-to-right-three login-btn">Back to Login</a>
                                     </div>
                                 </div>
                             </form>
