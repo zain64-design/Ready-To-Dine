@@ -9,6 +9,7 @@
   --mid-clr-2: #1f1f1f;
   --mid-clr-3: #212121;
   --mid-clr-4: #171725;
+  --mid-clr-5: #4F4A4A;
   --white-clr: #fff;
   --black-clr: #000;
   --grey-clr: #64748b;
@@ -1070,6 +1071,408 @@ margin-bottom: 6px;
 }
 /***************************** sec-home-search close *****************************/
 
+/***************************** sec-home-search close *****************************/
+/***************************** sec-bank-details start *****************************/
+.sec-bank-details {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+
+.sec-bank-details .head h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-align: center;
+}
+.sec-bank-details .form-main {
+  margin-top: 60px;
+}
+.sec-bank-details .form-main .submit-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+}
+.sec-bank-details .form-main .inp-main {
+  margin-bottom: 26px;
+}
+.sec-bank-details .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 8px;
+}
+.sec-bank-details .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--mid-clr-5);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-bank-details .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-bank-details .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-bank-details .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-bank-details .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+/***************************** sec-bank-details close *****************************/
+
+/***************************** sec-upload-menu start *****************************/
+.sec-upload-menu {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 64px;
+}
+
+.sec-upload-menu .head h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-align: center;
+  margin-bottom: 24px;
+}
+.sec-upload-menu .head p {
+  text-align: center;
+  font-size: 18px;
+  color: var(--black-clr);
+}
+.sec-upload-menu .form-main {
+  margin-top: 60px;
+}
+.sec-upload-menu .form-main .submit-btn,.sec-upload-menu .form-main .add-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+}
+.sec-upload-menu .form-main .add-btn {
+  text-transform: none;
+}
+.sec-upload-menu .form-main .skip-btn {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 16px;
+  color: var(--black-clr);
+  text-align: center;
+  display: block;
+}
+.sec-upload-menu .form-main .inp-main {
+  margin-bottom: 26px;
+}
+.sec-upload-menu .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--mid-clr-2);
+  margin-bottom: 8px;
+}
+.sec-upload-menu .form-main .inp-main .link {
+  color: var(--prim-clr);
+  font-size: inherit;
+}
+.sec-upload-menu .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-upload-menu .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+.sec-upload-menu .form-main .inp-main .ct-txt {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-txt::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-txt::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-txt:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-txt:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-select {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  position: relative;
+  line-height: normal;
+  height: 64px;
+  width: 100%;
+  align-content: center;
+  text-transform: capitalize;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-select .select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-select .select-box i {
+  display: inline-flex;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-select .select-box i img {
+  display: block;
+  height: auto;
+  width: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-select .select-options {
+  display: none;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  z-index: 100;
+}
+
+.sec-upload-menu .form-main .inp-main .ct-select .select-options .option {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.sec-upload-menu .form-main .inp-main .ct-select .select-options .option:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.sec-upload-menu .form-main .inp-main .upload-area {
+  background: var(--white-bg);
+  border: 1px dashed var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 16px;
+  width: 100%;
+  position: relative;
+  height: 215px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec-upload-menu .form-main .inp-main .upload-area .upload-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+.sec-upload-menu .form-main .inp-main .upload-area .thumb {
+  height: 77px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 27px;
+}
+.sec-upload-menu .form-main .inp-main .upload-area span {
+  font-size: 18px;
+  color: var(--mid-clr-2);
+}
+
+.sec-upload-menu .form-main .custom-dropdown {
+  max-width: 100%;
+  position: relative;
+}
+.sec-upload-menu .form-main .custom-dropdown .drop-toggle {
+  width: 100%;
+  height: 64px;
+  border-radius: 10px;
+  background-color: var(--grey-clr-8);
+  color: var(--black-clr);
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px 0 16px;
+  border: 1px solid var(--grey-clr-6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: var(--grey-clr-8);
+  border-radius: 10px;
+  padding: 16px;
+  display: none;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .dropdown-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .dropdown-option img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .dropdown-option label {
+  color: var(--black-clr);
+  font-size: 16px;
+  line-height: normal;
+  margin: 0px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border: 0.13rem solid var(--black-clr);
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+  margin: 0 0 0 auto;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"]:checked {
+  background-color: var(--black-bg) !important;
+  --bs-form-check-bg-image: url(../images/notification/check-solid.svg) !important;
+  background-size: 15px 15px !important;
+}
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .clear-btn {
+  color: var(--prim-bg);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background: var(--grey-clr-7);
+  height: auto;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sec-upload-menu .form-main .custom-dropdown .dropdown-options .ok-btn {
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--prim-bg);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/***************************** sec-upload-menu close *****************************/
+
 /***************************** sec-inner-banner start *****************************/
 .sec-inner-banner.restaurant-banner {
   position: relative;
@@ -1401,6 +1804,180 @@ margin-bottom: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/***************************** sec-booking start *****************************/
+.sec-date-time {
+
+}
+.sec-date-time {
+  margin-top: 132px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+
+.sec-date-time .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.sec-date-time .head .logo {
+  height: 50px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.sec-date-time .head h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-date-time .head p {
+  text-align: center;
+  font-size: 18px;
+  color: var(--black-clr);
+  margin-top: 24px;
+}
+.sec-date-time .form-main .day-select-area {
+  margin-top: 64px;
+}
+.sec-date-time .form-main .day-select-area .day-select {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 24px                                                                 ;
+}
+
+.sec-date-time .form-main .day-select-area .ct-lbl {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black-clr);
+}
+
+.sec-date-time .form-main .day-select-area .day-select li {
+  margin: 9px 5px;
+}
+
+/* .sec-date-time .form-main .day-select-area .day-select li:not(:last-child) {
+  margin-right: 22px;
+} */
+
+.sec-date-time .form-main .day-select-area .day-select li .ct-rd {
+  background: var(--sec-clr);
+  border: none;
+  border-radius: 8px;
+  height: 80px;
+  width: 80px;
+  max-width: 100%;
+  padding: 8px;
+  text-transform: capitalize;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-date-time .form-main .day-select-area .day-select li .btn-check:checked+.ct-rd {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-date-time .form-main .day-select-area .day-select li .ct-rd:hover {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-date-time .form-main .time-select-area {
+  margin-top: 64px;
+}
+
+.sec-date-time .form-main .time-select-area .ct-lbl {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 43px;
+}
+
+.sec-date-time .form-main .time-select-area .time-select {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sec-date-time .form-main .time-select-area .time-select li {
+  margin: 9px 5px;
+}
+
+/* .sec-date-time .form-main .time-select-area .time-select li:not(:last-child) {
+  margin-right: 22px;
+} */
+
+.sec-date-time .form-main .time-select-area .time-select li .ct-rd {
+  background: var(--sec-clr);
+  border: 1px solid var(--sec-clr);
+  border-radius: 50px;
+  height: 43px;
+  width: clamp(348px,23vw,400px);
+  max-width: 100%;
+  padding: 8px;
+  text-transform: capitalize;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  color: var(--black-clr);
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-date-time .form-main .time-select-area .time-select li .btn-check:checked+.ct-rd {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-date-time .form-main .time-select-area .time-select li .ct-rd:hover {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-date-time .form-main .submit-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 58px;
+}
+.sec-date-time .form-main .skip-btn {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 16px;
+  color: var(--black-clr);
+  text-align: center;
+  display: block;
 }
 
 /***************************** sec-review-booking start *****************************/
