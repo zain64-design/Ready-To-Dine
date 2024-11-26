@@ -2485,6 +2485,260 @@ background-size: 15px 15px;
 
 /***************************** sec-review-booking close *****************************/
 
+/***************************** sec-booking-details start *****************************/
+.sec-booking-details {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 34px;
+}
+
+.sec-booking-details .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-booking-details .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-booking-details .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-booking-details .form-main .submit-btn {
+  height: 72px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 24px;
+}
+
+.sec-booking-details .form-main {
+  margin-top: 68px;
+}
+.sec-booking-details .form-main .box {
+  background: var(--white-bg);
+  border-radius: 16px;
+  border: none;
+}
+.sec-booking-details .form-main .row>.col-12 .box:not(:last-child) {
+  margin-bottom: 32px;
+}
+.sec-booking-details .form-main .box.details-box {
+  padding: 12px 23px 25px 17px;
+}
+.sec-booking-details .form-main .box.details-box .item-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sec-booking-details .form-main .box.details-box .item-box figure {
+  margin-bottom: 0;
+}
+.sec-booking-details .form-main .box.details-box .item-box figure .thumb {
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  height: 80px;
+  width: 80px;
+}
+.sec-booking-details .form-main .box.details-box .item-box .desc {
+
+}
+.sec-booking-details .form-main .box.details-box .item-box .desc h5 {
+  font-weight: 700;
+  color: var(--black-clr);
+  font-size: clamp(18px,2.5vw,24px);
+  text-transform: capitalize;
+  margin-bottom: 16px;
+  line-height: normal;
+}
+.sec-booking-details .form-main .box.details-box .item-box .desc span {
+  color: var(--green-clr);
+  font-size: 16px;
+  line-height: normal;
+}
+.sec-booking-details .form-main .box.details-box .item-box .location {
+  margin: 0 0 0 auto;
+}
+.sec-booking-details .form-main .box.details-box .item-box .location ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.sec-booking-details .form-main .box.details-box .item-box .location h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.sec-booking-details .form-main .box.details-box .item-box .location ul li.icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-start;
+  max-width: 200px;
+}
+
+.sec-booking-details .form-main .box.details-box .item-box .location ul li.icon.pin-icon::before {
+  content: "\f3c5";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--prim-clr);
+}
+
+.sec-booking-details .form-main .box.details-box .item-box .location ul li.icon.locate-icon::before {
+  content: "\e63a";
+  font-family: "Font Awesome 6 Pro";
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--prim-clr);
+  transform: rotate(35deg);
+}
+.sec-booking-details .form-main .box.details-box .item-box .location ul li a {
+  color: var(--green-clr);
+  font-size: 18px;
+  line-height: normal;
+}
+.sec-booking-details .form-main .box.details-box .info-box ul {
+  margin-top: 27px;
+}
+.sec-booking-details .form-main .box.details-box .info-box ul li {
+  color: var(--black-clr);
+  font-size: clamp(14px,2vw,18px);
+  text-transform: capitalize;
+  line-height: normal;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+.sec-booking-details .form-main .box.details-box .info-box ul li:not(:last-child) {
+  margin-bottom: 18px;
+}
+.sec-booking-details .form-main .box.details-box .info-box ul li span {
+  font-weight: 400;
+}
+.sec-booking-details .form-main .box.menu-box {
+  padding: 17px 24px 20px;
+} 
+.sec-booking-details .form-main .box.menu-box .tp-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 29px;
+}
+.sec-booking-details .form-main .box.menu-box .tp-area h6 {
+  font-weight: 700;
+  color: var(--black-clr);
+  font-size: clamp(18px,2.5vw,24px);
+  text-transform: capitalize;
+  line-height: normal;
+}
+.sec-booking-details .form-main .box.menu-box .tp-area .edit-btn {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--prim-clr);
+  text-transform: capitalize;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box:not(:last-child) {
+  margin-bottom: 24px;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box .total-count small {
+  color: var(--grey-clr);
+  font-size: 18px;
+  line-height: normal;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box figure {
+  margin-bottom: 0;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box figure img {
+  height: 57px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box .desc {
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box .desc a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.sec-booking-details .form-main .box.menu-box .items-area .item-box .desc span {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  line-height: normal;
+  font-weight: 500;
+}
+
+.sec-booking-details .form-main .box.pay-box {
+  padding: 21px 20px;
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  color: var(--black-clr);
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li h6,.sec-booking-details .form-main .box.pay-box .total-area ul li span {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li h6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li h6.info-icon::after {
+  content: '';
+  background: url(../images/reviews/info.png) center/contain no-repeat;
+  height: 16px;
+  width: 16px;
+  display: inline-flex;
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li h6 small {
+  font-size: 14px;
+  color: var(--green-clr);
+  font-weight: 400;
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li:last-child>h6 {
+  font-weight: 700;
+}
+.sec-booking-details .form-main .box.pay-box .total-area ul li:last-child>span {
+  font-weight: 700;
+}
+
+/***************************** sec-booking-details close *****************************/
+
 /***************************** sec-item-detail start *****************************/
 .sec-item-detail {
   overflow: visible;
@@ -4066,61 +4320,32 @@ section.login-page.sign-up {
   border-radius: 16px;
 }
 
-.booking-modal {
-  max-width: 800px;
-}
-.booking-modal .modal-content {
-  border-radius: 16px;
-}
-.booking-modal .modal-content .modal-body {
-  padding: 45px;
-}
-.booking-modal .modal-content .modal-body .btn-close {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  opacity: 1;
-}
-.booking-modal .modal-content .modal-body .modal-body-form figure img {
-  height: 78px;
-  object-fit: contain;
-  object-position: center;
-  margin: 0 auto;
-  display: block;
-}
-.booking-modal .modal-content .modal-body .modal-body-form p {
-  font-size: 18px;
-  color: var(--black-clr);
-  line-height: 30px;
-  text-align: center;
-}
-
-.reset-password-modal {
+.order-success-modal {
   max-width: 725px;
 }
 
-.reset-password-modal .modal-content {
+.order-success-modal .modal-content {
   border-radius: 24px;
 }
 
-.reset-password-modal .modal-body {
-  padding: 24px 40px;
+.order-success-modal .modal-body {
+  padding: 37px 24px 16px;
   background-color: var(--white-clr);
-  border-radius: 24px !important;
+  border-radius: 24px;
   box-shadow: 0px 4px 18px 0px rgba(0, 0, 0, 0.10);
 }
 
-.reset-password-modal .modal-body .modal-body-form {
+.order-success-modal .modal-body .modal-body-form {
   text-align: center;
 }
 
-.reset-password-modal .modal-body .modal-body-form figure {
-  margin-top: 40px;
+.order-success-modal .modal-body .modal-body-form figure {
+  margin-bottom: 16px;
 }
 
-.reset-password-modal .modal-body .modal-body-form figure img {}
+.order-success-modal .modal-body .modal-body-form figure img {}
 
-.reset-password-modal .modal-body .modal-body-form h2 {
+.order-success-modal .modal-body .modal-body-form h2 {
   color: var(--black-clr);
   text-align: center;
   font-family: var(--font-1);
@@ -4131,27 +4356,21 @@ section.login-page.sign-up {
   margin-bottom: 16px;
 }
 
-.reset-password-modal .modal-body .modal-body-form p {
+.order-success-modal .modal-body .modal-body-form p {
   color: var(--black-clr);
   text-align: center;
-  font-family: var(--font-1);
-  font-size: clamp(14px, 1.5vw, 18px);
-  font-style: normal;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
-  width: 78%;
-  margin: 0 auto 30px;
+  margin: 0 auto 27px;
 }
 
-.reset-password-modal .modal-body .modal-body-form button {
+.order-success-modal .modal-body .modal-body-form .accept-btn {
   height: 56px;
-  border-radius: 19px;
-  font-family: var(--font-1);
-  font-size: 18px;
-  font-style: normal;
+  border-radius: 50px;
+  font-size: 16px;
   font-weight: 700;
   line-height: normal;
-  /* 100% */
 }
 
 /* Reset Password Page End */

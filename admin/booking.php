@@ -444,7 +444,7 @@ include 'includes/header.php';
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                                 <div class="actions-area">
-                                                                    <button class="btn outline-btn">
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#order-success" class="btn outline-btn">
                                                                         accept
                                                                     </button>
                                                                     <a href="reject-booking.php" class="btn outline-btn">reject</a>
