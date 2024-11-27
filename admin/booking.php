@@ -100,7 +100,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -127,7 +127,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -154,7 +154,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -181,7 +181,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -208,7 +208,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -235,7 +235,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -270,7 +270,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -297,7 +297,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -324,7 +324,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -351,7 +351,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -378,7 +378,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -405,7 +405,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                         </div>
@@ -440,7 +440,7 @@ include 'includes/header.php';
                                                                     <span>5:30-6:30 PM</span>
                                                                 </div>
                                                             </div>
-                                                            <a href="void:;"
+                                                            <a href="booking-details.php"
                                                                 class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
                                                                 Details</a>
                                                                 <div class="actions-area">

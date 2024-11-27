@@ -91,7 +91,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -100,7 +100,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -117,7 +117,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -126,7 +126,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -143,7 +143,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -152,7 +152,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -169,7 +169,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -178,7 +178,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -195,7 +195,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -204,7 +204,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -221,7 +221,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -230,7 +230,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -254,7 +254,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -263,7 +263,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -280,7 +280,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -289,7 +289,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -306,7 +306,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -315,7 +315,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -332,7 +332,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -341,7 +341,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -358,7 +358,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -367,7 +367,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -384,7 +384,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -393,7 +393,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -417,7 +417,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -426,7 +426,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -443,7 +443,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -452,7 +452,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -469,7 +469,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -478,7 +478,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -495,7 +495,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -504,7 +504,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -521,7 +521,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -530,7 +530,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -547,7 +547,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -556,7 +556,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -580,7 +580,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -589,7 +589,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -606,7 +606,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -615,7 +615,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -632,7 +632,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -641,7 +641,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -658,7 +658,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -667,7 +667,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -684,7 +684,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -693,7 +693,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -710,7 +710,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -719,7 +719,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -743,7 +743,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -752,7 +752,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -769,7 +769,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -778,7 +778,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -795,7 +795,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -804,7 +804,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -821,7 +821,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -830,7 +830,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -847,7 +847,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -856,7 +856,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -873,7 +873,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -882,7 +882,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -906,7 +906,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -915,7 +915,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -932,7 +932,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -941,7 +941,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -958,7 +958,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -967,7 +967,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -984,7 +984,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -993,7 +993,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1010,7 +1010,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1019,7 +1019,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1036,7 +1036,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1045,7 +1045,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1069,7 +1069,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1078,7 +1078,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1095,7 +1095,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1104,7 +1104,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1121,7 +1121,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1130,7 +1130,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1147,7 +1147,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1156,7 +1156,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1173,7 +1173,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1182,7 +1182,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1199,7 +1199,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1208,7 +1208,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1232,7 +1232,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1241,7 +1241,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1258,7 +1258,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1267,7 +1267,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1284,7 +1284,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1293,7 +1293,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1310,7 +1310,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1319,7 +1319,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1336,7 +1336,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1345,7 +1345,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1362,7 +1362,7 @@ include 'includes/header.php';
                                                                     <a href="item-details.php">Ultimate Platter Feast</a>
                                                                 </div>
                                                                 <div class="rt-box">
-                                                                    <a href="menu-customize.php">Edit</a>
+                                                                    <a href="edit-menu.php">Edit</a>
                                                                 </div>
                                                             </div>
                                                             <div class="md-area">
@@ -1371,7 +1371,7 @@ include 'includes/header.php';
                                                                 </div>
                                                             </div>
                                                             <div class="btm-area">
-                                                            <a href="re-book-table.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
+                                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right detail-btn">See Item Details</a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1383,12 +1383,12 @@ include 'includes/header.php';
                             </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right menu-btn">
+                                <a href="add-menu-item.php" class="btn ct-btn-prim hvr-bounce-to-right menu-btn">
                                 Add Menu Item
                                 </a>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                                <a href="void:;" class="btn ct-btn-prim-light hvr-bounce-to-right-two add-btn">
+                                <a href="add-special-deals.php" class="btn ct-btn-prim-light hvr-bounce-to-right-two add-btn">
                                 Add Special Deal
                                 </a>
                             </div>

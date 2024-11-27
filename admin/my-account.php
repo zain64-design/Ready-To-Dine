@@ -152,7 +152,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="edit-restaurant-details.php">
+                                <a href="edit-restaurant-detail.php">
                                     <div class="list-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 20 20" fill="none">
@@ -229,7 +229,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="payment-method.php">
+                                <a href="payment.php">
                                     <div class="list-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
                                             viewBox="0 0 20 20" fill="none">

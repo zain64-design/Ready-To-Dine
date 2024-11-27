@@ -870,21 +870,64 @@ margin-bottom: 16px;
   font-weight: 500;
   color: var(--black-clr);
   font-size: 18px;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  background: var(--white-bg);
+  justify-content: flex-start;
   gap: 18px;
+  overflow: hidden;
+  min-height: auto;
   margin: 0 0 0 auto;
+  position: relative;
 }
-.sec-home-area .branch-area .book-btn::after {
+.sec-home-area .branch-area .book-btn .lbl-on {
+  display: none;
+}
+.sec-home-area .branch-area .book-btn::before {
   content: '';
   display: inline-flex;
   background: url(../images/off-icon.png) center/contain no-repeat;
   height: 51px;
   width: 51px;
 }
-.sec-home-area .branch-area .book-btn:hover::after {
-  filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(7500%) hue-rotate(190deg) brightness(103%) contrast(113%);
+.sec-home-area .branch-area .book-btn::after {
+  content: '';
+  background: url(../images/on-icon.png) center/contain no-repeat;
+  height: 51px;
+  width: 51px;
+  display: none;
 }
+.sec-home-area .branch-area .book-btn .form-check-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.sec-home-area .branch-area .book-btn:has(.form-check-input:checked) {
+  color: var(--prim-clr);
+  justify-content: flex-end;
+}
+.sec-home-area .branch-area .book-btn:has(.form-check-input:checked)::after {
+  display: inline-flex;
+}
+.sec-home-area .branch-area .book-btn:has(.form-check-input:checked)::before {
+  display: none;
+}
+.sec-home-area .branch-area .book-btn:has(.form-check-input:checked) .lbl-on {
+  display: inline-flex;
+}
+.sec-home-area .branch-area .book-btn:has(.form-check-input:checked) .lbl-off {
+  display: none;
+}
+/* .sec-home-area .branch-area .book-btn:hover::after {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(7%) saturate(7500%) hue-rotate(190deg) brightness(103%) contrast(113%);
+} */
 .sec-home-area .cta-area {
   padding: 20px 34px;
   background: linear-gradient(90deg, rgba(14,112,248,1) 0%, rgba(14,112,248,1) 100%),url(../images/home/cta-bg.png) center/cover no-repeat;
@@ -1071,7 +1114,6 @@ margin-bottom: 6px;
 }
 /***************************** sec-home-search close *****************************/
 
-/***************************** sec-home-search close *****************************/
 /***************************** sec-bank-details start *****************************/
 .sec-bank-details {
   margin-top: 176px;
@@ -1144,6 +1186,99 @@ margin-bottom: 6px;
 }
 
 /***************************** sec-bank-details close *****************************/
+
+/***************************** sec-payment start *****************************/
+.sec-payment {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+.sec-payment .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-payment .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-payment .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-payment .head-center {
+  margin-top: 56px;
+}
+.sec-payment .head-center h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-align: center;
+}
+.sec-payment .form-main {
+  margin-top: 60px;
+}
+.sec-payment .form-main .submit-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+}
+.sec-payment .form-main .inp-main {
+  margin-bottom: 26px;
+}
+.sec-payment .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 8px;
+}
+.sec-payment .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-payment .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-payment .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-payment .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+.sec-payment .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+}
+
+/***************************** sec-payment close *****************************/
 
 /***************************** sec-upload-menu start *****************************/
 .sec-upload-menu {
@@ -1473,6 +1608,1077 @@ margin-bottom: 6px;
 
 /***************************** sec-upload-menu close *****************************/
 
+/***************************** sec-add-menu-item start *****************************/
+.sec-add-menu-item {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+
+.sec-add-menu-item .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.sec-add-menu-item .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-add-menu-item .head h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-align: center;
+}
+.sec-add-menu-item .form-main {
+  margin-top: 80px;
+}
+.sec-add-menu-item .form-main .submit-btn,.sec-add-menu-item .form-main .add-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+}
+.sec-add-menu-item .form-main .add-btn {
+  text-transform: none;
+}
+.sec-add-menu-item .form-main .skip-btn {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 16px;
+  color: var(--black-clr);
+  text-align: center;
+  display: block;
+}
+.sec-add-menu-item .form-main .inp-main {
+  margin-bottom: 26px;
+}
+.sec-add-menu-item .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--mid-clr-2);
+  margin-bottom: 8px;
+}
+.sec-add-menu-item .form-main .inp-main .link {
+  color: var(--prim-clr);
+  font-size: inherit;
+}
+.sec-add-menu-item .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-add-menu-item .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+.sec-add-menu-item .form-main .inp-main .ct-txt {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-txt::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-txt::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-txt:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-txt:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-select {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  position: relative;
+  line-height: normal;
+  height: 64px;
+  width: 100%;
+  align-content: center;
+  text-transform: capitalize;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-select .select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-select .select-box i {
+  display: inline-flex;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-select .select-box i img {
+  display: block;
+  height: auto;
+  width: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-select .select-options {
+  display: none;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  z-index: 100;
+}
+
+.sec-add-menu-item .form-main .inp-main .ct-select .select-options .option {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.sec-add-menu-item .form-main .inp-main .ct-select .select-options .option:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.sec-add-menu-item .form-main .inp-main .upload-area {
+  background: var(--white-bg);
+  border: 1px dashed var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 16px;
+  width: 100%;
+  position: relative;
+  height: 215px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec-add-menu-item .form-main .inp-main .upload-area .upload-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+.sec-add-menu-item .form-main .inp-main .upload-area .thumb {
+  height: 77px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 27px;
+}
+.sec-add-menu-item .form-main .inp-main .upload-area span {
+  font-size: 18px;
+  color: var(--mid-clr-2);
+}
+
+.sec-add-menu-item .form-main .custom-dropdown {
+  max-width: 100%;
+  position: relative;
+}
+.sec-add-menu-item .form-main .custom-dropdown .drop-toggle {
+  width: 100%;
+  height: 64px;
+  border-radius: 10px;
+  background-color: var(--grey-clr-8);
+  color: var(--black-clr);
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px 0 16px;
+  border: 1px solid var(--grey-clr-6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: var(--grey-clr-8);
+  border-radius: 10px;
+  padding: 16px;
+  display: none;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .dropdown-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .dropdown-option img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .dropdown-option label {
+  color: var(--black-clr);
+  font-size: 16px;
+  line-height: normal;
+  margin: 0px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border: 0.13rem solid var(--black-clr);
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+  margin: 0 0 0 auto;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"]:checked {
+  background-color: var(--black-bg) !important;
+  --bs-form-check-bg-image: url(../images/notification/check-solid.svg) !important;
+  background-size: 15px 15px !important;
+}
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .clear-btn {
+  color: var(--prim-bg);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background: var(--grey-clr-7);
+  height: auto;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sec-add-menu-item .form-main .custom-dropdown .dropdown-options .ok-btn {
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--prim-bg);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/***************************** sec-add-menu-item close *****************************/
+
+/***************************** sec-edit-rest-detail start *****************************/
+.sec-edit-rest-detail {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+
+.sec-edit-rest-detail .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.sec-edit-rest-detail .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-edit-rest-detail .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-align: center;
+}
+.sec-edit-rest-detail .form-main {
+  margin-top: 62px;
+}
+.sec-edit-rest-detail .form-main .submit-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 45px;
+}
+.sec-edit-rest-detail .form-main .ct-check-area .form-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 23px;
+}
+.sec-edit-rest-detail .form-main .ct-check-area .form-check::after {
+  content: '';
+  background: url(../images/logo/info-icon-1.png) center / contain no-repeat;
+  height: 18px;
+  width: 18px;
+  display: inline-flex;
+  margin-left: 8px;
+}
+.sec-edit-rest-detail .form-main .ct-check-area .form-check .form-check-label {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+}
+.sec-edit-rest-detail .form-main .ct-check-area .form-check .form-check-input {
+  height: 24px;
+  width: 24px;
+  border-radius: 8px;
+}
+.sec-edit-rest-detail .form-main .ct-check-area .form-check .form-check-input:checked[type='checkbox'] {
+  background-color: var(--black-bg);
+  border-color: var(--black-clr);
+  --bs-form-check-bg-image: url(../images/check-mark.svg);
+  background-size: 14px;
+}
+.sec-edit-rest-detail .form-main .inp-main {
+  margin-bottom: 26px;
+}
+.sec-edit-rest-detail .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--mid-clr-2);
+  margin-bottom: 8px;
+}
+.sec-edit-rest-detail .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-edit-rest-detail .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+.sec-edit-rest-detail .form-main .inp-main .ct-txt {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-txt::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-txt::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-txt:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-txt:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-select {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  position: relative;
+  line-height: normal;
+  height: 64px;
+  width: 100%;
+  align-content: center;
+  text-transform: capitalize;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-select .select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-select .select-box i {
+  display: inline-flex;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-select .select-box i img {
+  display: block;
+  height: auto;
+  width: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-select .select-options {
+  display: none;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  z-index: 100;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .ct-select .select-options .option {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.sec-edit-rest-detail .form-main .inp-main .ct-select .select-options .option:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.sec-edit-rest-detail .form-main .inp-main .upload-area {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 16px;
+  width: 100%;
+  position: relative;
+  height: 215px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec-edit-rest-detail .form-main .inp-main .upload-area .upload-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+.sec-edit-rest-detail .form-main .inp-main .upload-area .thumb {
+  height: 63px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 27px;
+}
+.sec-edit-rest-detail .form-main .inp-main .upload-area span {
+  font-size: 18px;
+  color: var(--mid-clr-2);
+}
+
+.sec-edit-rest-detail .form-main .custom-dropdown {
+  max-width: 100%;
+  position: relative;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .drop-toggle {
+  width: 100%;
+  height: 64px;
+  border-radius: 10px;
+  background-color: var(--white-bg);
+  color: var(--black-clr);
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px 0 16px;
+  border: 1px solid var(--grey-clr-6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: var(--white-bg);
+  border-radius: 10px;
+  padding: 16px;
+  display: none;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .dropdown-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .dropdown-option img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .dropdown-option label {
+  color: var(--black-clr);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border: 0.13rem solid var(--black-clr);
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+  margin: 0 0 0 auto;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"]:checked {
+  background-color: var(--black-bg) !important;
+  --bs-form-check-bg-image: url(../images/notification/check-solid.svg) !important;
+  background-size: 15px 15px !important;
+}
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .clear-btn {
+  color: var(--prim-bg);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background: var(--grey-clr-7);
+  height: auto;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sec-edit-rest-detail .form-main .custom-dropdown .dropdown-options .ok-btn {
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--prim-bg);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/***************************** sec-edit-rest-detail close *****************************/
+
+/***************************** sec-edit-menu start *****************************/
+.sec-edit-menu {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+.sec-edit-menu .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.sec-edit-menu .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-edit-menu .head h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  text-align: center;
+}
+
+.sec-edit-menu .form-main {
+  margin-top: 80px;
+}
+.sec-edit-menu .form-main .submit-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 24px;
+}
+
+.sec-edit-menu .form-main .inp-main {
+  margin-bottom: 26px;
+}
+.sec-edit-menu .form-main .inp-main .tags-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+.sec-edit-menu .form-main .inp-main .tags-area .single-tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 36px;
+  min-width: 110px;
+  max-width: 100%;
+  border-radius: 50px;
+  background-color: var(--prim-bg);
+  color: var(--white-clr);
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 5px 15px;
+  font-weight: 300;
+}
+.sec-edit-menu .form-main .inp-main .tags-area .single-tag .dlt-btn {
+  padding: 0;
+  margin: 0;
+  color: var(--white-clr);
+  font-size: 12px;
+}
+.sec-edit-menu .form-main .inp-main .tags-area .add-ing-inp {
+  max-width: 128px;
+  width: fit-content;
+  border: none;
+  border-left: 1px solid var(--black-clr);
+  min-height: 24px;
+  color: var(--black-clr);
+  font-size: 16px;
+  background-color: var(--sec-clr-2);
+  border-radius: 0;
+  padding: 0 4px;
+  display: inline-flex;
+}
+.sec-edit-menu .form-main .inp-main .tags-area .add-ing-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .tags-area .add-ing-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .tags-area .add-ing-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .tags-area .add-ing-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+.sec-edit-menu .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--mid-clr-2);
+  margin-bottom: 8px;
+}
+.sec-edit-menu .form-main .inp-main .link {
+  color: var(--prim-clr);
+  font-size: inherit;
+}
+.sec-edit-menu .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  height: 64px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-edit-menu .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+.sec-edit-menu .form-main .inp-main .ct-txt {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-txt::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-txt::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-txt:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-txt:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-select {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px 16px 12px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  position: relative;
+  line-height: normal;
+  height: 64px;
+  width: 100%;
+  align-content: center;
+  text-transform: capitalize;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-select .select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-select .select-box i {
+  display: inline-flex;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-select .select-box i img {
+  display: block;
+  height: auto;
+  width: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-select .select-options {
+  display: none;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--green-clr);
+  z-index: 100;
+}
+
+.sec-edit-menu .form-main .inp-main .ct-select .select-options .option {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.sec-edit-menu .form-main .inp-main .ct-select .select-options .option:not(:last-child) {
+  padding-bottom: 16px;
+}
+
+.sec-edit-menu .form-main .inp-main .upload-area {
+  background: var(--white-bg);
+  border: 1px dashed var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 16px;
+  width: 100%;
+  position: relative;
+  height: 215px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec-edit-menu .form-main .inp-main .upload-area .upload-file {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+}
+.sec-edit-menu .form-main .inp-main .upload-area .thumb {
+  height: 77px;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 27px;
+}
+.sec-edit-menu .form-main .inp-main .upload-area span {
+  font-size: 18px;
+  color: var(--mid-clr-2);
+}
+
+.sec-edit-menu .form-main .custom-dropdown {
+  max-width: 100%;
+  position: relative;
+}
+.sec-edit-menu .form-main .custom-dropdown .drop-toggle {
+  width: 100%;
+  height: 64px;
+  border-radius: 10px;
+  background-color: var(--grey-clr-8);
+  color: var(--black-clr);
+  font-size: 18px;
+  text-align: left;
+  padding: 0 20px 0 16px;
+  border: 1px solid var(--grey-clr-6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 8px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: var(--grey-clr-8);
+  border-radius: 10px;
+  padding: 16px;
+  display: none;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .dropdown-option {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .dropdown-option img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .dropdown-option label {
+  color: var(--black-clr);
+  font-size: 16px;
+  line-height: normal;
+  margin: 0px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border: 0.13rem solid var(--black-clr);
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+  margin: 0 0 0 auto;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"]:checked {
+  background-color: var(--black-bg) !important;
+  --bs-form-check-bg-image: url(../images/notification/check-solid.svg) !important;
+  background-size: 15px 15px !important;
+}
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .clear-btn {
+  color: var(--prim-bg);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background: var(--grey-clr-7);
+  height: auto;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sec-edit-menu .form-main .custom-dropdown .dropdown-options .ok-btn {
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--prim-bg);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/***************************** sec-edit-menu close *****************************/
+
 /***************************** sec-inner-banner start *****************************/
 .sec-inner-banner.restaurant-banner {
   position: relative;
@@ -1510,6 +2716,10 @@ margin-bottom: 6px;
   font-weight: 700;
   color: var(--white-clr);
   text-transform: capitalize;
+}
+.sec-inner-banner.restaurant-banner .back-area .back-btn {
+  font-size: 20px;
+  color: var(--white-clr);
 }
 
 /***************************** sec-inner-banner close *****************************/
@@ -1979,6 +3189,197 @@ margin-bottom: 6px;
   text-align: center;
   display: block;
 }
+
+/***************************** sec-booking start *****************************/
+.sec-edit-schedule {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+.sec-edit-schedule .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-edit-schedule .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-edit-schedule .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-edit-schedule .head-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 9px;
+  margin-top: 85px;
+}
+
+.sec-edit-schedule .head-center .logo {
+  height: 50px;
+  object-fit: contain;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.sec-edit-schedule .head-center h6 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-edit-schedule .head-center p {
+  text-align: center;
+  font-size: 18px;
+  color: var(--black-clr);
+  margin-top: 24px;
+}
+.sec-edit-schedule .form-main .day-select-area {
+  margin-top: 64px;
+}
+.sec-edit-schedule .form-main .day-select-area .day-select {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 24px                                                                 ;
+}
+
+.sec-edit-schedule .form-main .day-select-area .ct-lbl {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black-clr);
+}
+
+.sec-edit-schedule .form-main .day-select-area .day-select li {
+  margin: 9px 5px;
+}
+
+/* .sec-edit-schedule .form-main .day-select-area .day-select li:not(:last-child) {
+  margin-right: 22px;
+} */
+
+.sec-edit-schedule .form-main .day-select-area .day-select li .ct-rd {
+  background: var(--sec-clr);
+  border: none;
+  border-radius: 8px;
+  height: 80px;
+  width: 80px;
+  max-width: 100%;
+  padding: 8px;
+  text-transform: capitalize;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  color: var(--black-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-edit-schedule .form-main .day-select-area .day-select li .btn-check:checked+.ct-rd {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-edit-schedule .form-main .day-select-area .day-select li .ct-rd:hover {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-edit-schedule .form-main .time-select-area {
+  margin-top: 64px;
+}
+
+.sec-edit-schedule .form-main .time-select-area .ct-lbl {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 43px;
+}
+
+.sec-edit-schedule .form-main .time-select-area .time-select {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sec-edit-schedule .form-main .time-select-area .time-select li {
+  margin: 9px 5px;
+}
+
+/* .sec-edit-schedule .form-main .time-select-area .time-select li:not(:last-child) {
+  margin-right: 22px;
+} */
+
+.sec-edit-schedule .form-main .time-select-area .time-select li .ct-rd {
+  background: var(--sec-clr);
+  border: 1px solid var(--sec-clr);
+  border-radius: 50px;
+  height: 43px;
+  width: clamp(348px,23vw,400px);
+  max-width: 100%;
+  padding: 8px;
+  text-transform: capitalize;
+  display: inline-block;
+  align-content: center;
+  text-align: center;
+  color: var(--black-clr);
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: normal;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-edit-schedule .form-main .time-select-area .time-select li .btn-check:checked+.ct-rd {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-edit-schedule .form-main .time-select-area .time-select li .ct-rd:hover {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+  box-shadow: none;
+  border: 1px solid var(--prim-clr);
+}
+
+.sec-edit-schedule .form-main .submit-btn {
+  height: 68px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 58px;
+}
+.sec-edit-schedule .form-main .skip-btn {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 16px;
+  color: var(--black-clr);
+  text-align: center;
+  display: block;
+}
+
+/***************************** sec-booking close *****************************/
 
 /***************************** sec-review-booking start *****************************/
 .sec-review-booking {
@@ -2489,7 +3890,7 @@ background-size: 15px 15px;
 .sec-booking-details {
   margin-top: 176px;
   padding-top: 47px;
-  padding-bottom: 34px;
+  padding-bottom: 90px;
 }
 
 .sec-booking-details .head {
@@ -2511,25 +3912,17 @@ background-size: 15px 15px;
   color: var(--black-clr);
 }
 
-.sec-booking-details .form-main .submit-btn {
-  height: 72px;
-  border-radius: 16px;
-  font-weight: 700;
-  font-size: 22px;
-  margin-top: 24px;
-}
-
 .sec-booking-details .form-main {
-  margin-top: 68px;
+  margin-top: 30px;
 }
 .sec-booking-details .form-main .box {
   background: var(--white-bg);
   border-radius: 16px;
   border: none;
 }
-.sec-booking-details .form-main .row>.col-12 .box:not(:last-child) {
+/* .sec-booking-details .form-main .row>.col-12 .box:not(:last-child) {
   margin-bottom: 32px;
-}
+} */
 .sec-booking-details .form-main .box.details-box {
   padding: 12px 23px 25px 17px;
 }
@@ -2699,6 +4092,7 @@ background-size: 15px 15px;
 
 .sec-booking-details .form-main .box.pay-box {
   padding: 21px 20px;
+  height: 100%;
 }
 .sec-booking-details .form-main .box.pay-box .total-area ul li {
   display: flex;
@@ -2737,7 +4131,142 @@ background-size: 15px 15px;
   font-weight: 700;
 }
 
+.sec-booking-details .form-main .box.info-box {
+  padding: 15px 13px;
+  border-radius: 16px;
+  background: var(--white-bg);
+  color: var(--mid-clr-2);
+  height: 100%;
+}
+.sec-booking-details .form-main .box.info-box h6 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.sec-booking-details .form-main .box.info-box .desc {
+  background-color: var(--grey-clr-8);
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 16px;
+}
+.sec-booking-details .form-main .box.info-box .desc p {
+  font-size: 18px;
+}
+
 /***************************** sec-booking-details close *****************************/
+
+/***************************** sec-menu-details start *****************************/
+.sec-menu-details {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+
+.sec-menu-details .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-menu-details .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-menu-details .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+
+.sec-menu-details .form-main {
+  margin-top: 68px;
+}
+.sec-menu-details .form-main .rest-card {
+  background: var(--white-bg);
+  border-radius: 16px;
+  box-shadow: 0px 4px 24px 0px var(--shadow);
+  border: none;
+  padding: 16px;
+}
+.sec-menu-details .form-main .rest-card figure {
+  margin: 0 0 24px 0;
+  position: relative;
+  overflow: hidden;
+}
+.sec-menu-details .form-main .rest-card figure img {
+  width: 100%;
+  border-radius: 8px;
+  height: 167px;
+  object-fit: cover;
+  object-position: center;
+}
+.sec-menu-details .form-main .rest-card .desc a {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+  margin-bottom: 8px;
+  display: block;
+}
+.sec-menu-details .form-main .rest-card .desc span {
+  color: var(--black-clr);
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area {
+  margin-top: 24px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area h6 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing,.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing {
+  margin-top: 16px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing li .form-check,.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing li .form-check {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing li:not(:last-child) .form-check,.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing li:not(:last-child) .form-check {
+  margin-bottom: 16px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing li .form-check .form-check-input,.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing li .form-check .form-check-input {
+  height: 24px;
+  width: 24px;
+  border-radius: 8px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing li .form-check .form-check-input:focus {
+  border-color: #FF2C20;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing li .form-check .form-check-input:checked[type='checkbox'] {
+  background-color: #FF2C20;
+    border-color: #FF2C20;
+    --bs-form-check-bg-image: url(../images/x-mark.svg);
+    background-size: 12px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing li .form-check .form-check-input:focus {
+  border-color: var(--prim-clr);
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing li .form-check .form-check-input:checked[type='checkbox'] {
+  background-color: var(--prim-bg);
+    border-color: var(--prim-bg);
+    --bs-form-check-bg-image: url(../images/check-mark.svg);
+    background-size: 14px;
+}
+.sec-menu-details .form-main .rest-card .desc .ing-area .less-ing li .form-check .form-check-label,.sec-menu-details .form-main .rest-card .desc .ing-area .add-ing li .form-check .form-check-label {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: var(--black-clr);
+}
+
+/***************************** sec-menu-details close *****************************/
 
 /***************************** sec-item-detail start *****************************/
 .sec-item-detail {

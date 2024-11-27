@@ -21,7 +21,11 @@ include 'includes/header.php';
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
+                        <div class="back-area">
+                        <a href="menu.php" class="back-btn">
+                        <i class="fa-light fa-arrow-left"></i>
+                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -40,10 +44,6 @@ include 'includes/header.php';
                                         <h6>The Capital Grille</h6>
                                         <span>$80 USD</span>
                                     </div>
-                                </div>
-                                <div class="rt-area">
-                                    <a href="book-table.php" class="btn ct-btn-prim hvr-bounce-to-right book-btn">Book Your
-                                        Arrival Time</a>
                                 </div>
                             </div>
                         </div>

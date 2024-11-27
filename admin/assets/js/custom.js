@@ -89,6 +89,39 @@ $(document).ready(function () {
 });
 
 
+// add tags
+ // When user presses Enter key or clicks outside the input field
+ $(".add-ing-inp").on('keypress', function(e) {
+  // Check if Enter key is pressed (key code 13)
+  if (e.which == 13) {
+      var inputValue = $(this).val().trim();
+      
+      // Ensure the input is not empty
+      if (inputValue !== "") {
+          addTag(inputValue);
+          $(this).val(""); // Clear the input field after adding
+      }
+  }
+});
+
+// Function to add a new tag
+function addTag(value) {
+  var newTag = `
+      <div class="single-tag">
+          ${value}
+          <button type="button" class="btn dlt-btn">
+              <i class="fa-light fa-xmark"></i>
+          </button>
+      </div>
+  `;
+  $(".tags-area").prepend(newTag); // Append new tag to tags-area
+}
+
+// Handle deletion of tags
+$(".tags-area").on('click', '.dlt-btn', function() {
+  $(this).closest('.single-tag').remove(); // Remove the specific tag
+});
+
 });
 
 document.querySelectorAll(".pagination .page-link").forEach((link) => {
@@ -136,4 +169,6 @@ document.querySelectorAll(".pagination .page-link").forEach((link) => {
     });
   }
   togglePassword('.toggle-password');
+
+     
   

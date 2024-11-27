@@ -31,15 +31,15 @@ include 'includes/header.php';
                                 <div class="ct-menu dropdown-menu">
                                     <div class="rest-locate">
                                         <h6>select restaurant's location</h6>
-                                        <a href="void:;" class="location">586 Guys Underpass Suite 713</a>
+                                        <a href="add-bank-details.php" class="location">586 Guys Underpass Suite 713</a>
                                     </div>
                                     <div class="rest-locate">
                                         <h6>select restaurant's location</h6>
-                                        <a href="void:;" class="location">10252 Pfeffer Drive</a>
+                                        <a href="add-bank-details.php" class="location">10252 Pfeffer Drive</a>
                                     </div>
                                     <div class="rest-locate">
                                         <h6>select restaurant's location</h6>
-                                        <a href="void:;" class="location">171 Prosacco View Apt. 804</a>
+                                        <a href="add-bank-details.php" class="location">171 Prosacco View Apt. 804</a>
                                     </div>
                                     <button type="button" class="btn ct-btn-prim hvr-bounce-to-right save-btn">save
                                         changes</button>
@@ -51,8 +51,15 @@ include 'includes/header.php';
                             </div>
                         </div>
                         <div class="col-12 col-sm-7 col-md-5 col-lg-4 col-xl-4 col-xxl-3">
-                            <button class="btn ct-btn-prim-white hvr-bounce-to-right-three book-btn">Bookings Turned
-                                Off</button>
+                            <div class="form-check booking-check book-btn">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label lbl-off" for="flexCheckDefault">
+                                    Bookings Turned Off
+                                </label>
+                                <label class="form-check-label lbl-on" for="flexCheckDefault">
+                                    Bookings Turned On
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -172,7 +179,7 @@ include 'includes/header.php';
                                         <span>5:30-6:30 PM</span>
                                     </div>
                                 </div>
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
+                                <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -197,7 +204,7 @@ include 'includes/header.php';
                                         <span>5:30-6:30 PM</span>
                                     </div>
                                 </div>
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
+                                <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -222,7 +229,7 @@ include 'includes/header.php';
                                         <span>5:30-6:30 PM</span>
                                     </div>
                                 </div>
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
+                                <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -247,7 +254,7 @@ include 'includes/header.php';
                                         <span>5:30-6:30 PM</span>
                                     </div>
                                 </div>
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
+                                <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -272,7 +279,7 @@ include 'includes/header.php';
                                         <span>5:30-6:30 PM</span>
                                     </div>
                                 </div>
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
+                                <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
                         <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
@@ -297,7 +304,7 @@ include 'includes/header.php';
                                         <span>5:30-6:30 PM</span>
                                     </div>
                                 </div>
-                                <a href="void:;" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
+                                <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
                     </div>

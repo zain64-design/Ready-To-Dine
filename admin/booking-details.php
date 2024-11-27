@@ -29,7 +29,7 @@ include 'includes/header.php';
                 <div class="form-main">
                     <form action="">
                         <div class="row">
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-4">
                                 <div class="card box details-box">
                                     <div class="item-box">
                                         <figure>
@@ -41,11 +41,11 @@ include 'includes/header.php';
                                             <span>Booking ID: 410024</span>
                                         </div>
                                         <div class="location">
-                                        <ul>
-                                            <h6>Location</h6>
-                                            <li class="icon pin-icon"><a href="">10252 Pfeffer Drive</a>
-                                            </li>
-                                        </ul>
+                                            <ul>
+                                                <h6>Location</h6>
+                                                <li class="icon pin-icon"><a href="">10252 Pfeffer Drive</a>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                     <div class="info-box">
@@ -58,13 +58,41 @@ include 'includes/header.php';
                                         </ul>
                                     </div>
                                 </div>
-
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 mb-4">
+                                <div class="card box pay-box">
+                                    <div class="total-area">
+                                        <ul>
+                                            <li>
+                                                <h6>Sub total</h6>
+                                                <span>$400 USD</span>
+                                            </li>
+                                            <li>
+                                                <h6>Discount</h6>
+                                                <span>$50 USD</span>
+                                            </li>
+                                            <li>
+                                                <h6 class="info-icon">Tip/Service fee</h6>
+                                                <span>$3 USD</span>
+                                            </li>
+                                            <li>
+                                                <h6 class="info-icon">Platorm fee</h6>
+                                                <span>$2 USD</span>
+                                            </li>
+                                            <li>
+                                                <h6 class="info-icon">Total <small>(Incl. tax)</small></h6>
+                                                <span>$360 USD</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 mb-4">
                                 <div class="card box menu-box">
                                     <div class="tp-area">
                                         <h6>Menu Items</h6>
-                                        <a href="edit-menu.php" class="btn edit-btn">See Details</a>
+                                        <a href="menu-details.php" class="btn edit-btn">See Details</a>
                                     </div>
-
                                     <div class="items-area">
                                         <div class="item-box">
                                             <div class="total-count">
@@ -94,34 +122,14 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                                <div class="card box pay-box">
-                                    <div class="total-area">
-                                        <ul>
-                                            <li>
-                                                <h6>Sub total</h6>
-                                                <span>$400 USD</span>
-                                            </li>
-                                            <li>
-                                                <h6>Discount</h6>
-                                                <span>$50 USD</span>
-                                            </li>
-                                            <li>
-                                                <h6 class="info-icon">Tip/Service fee</h6>
-                                                <span>$3 USD</span>
-                                            </li>
-                                            <li>
-                                                <h6 class="info-icon">Platorm fee</h6>
-                                                <span>$2 USD</span>
-                                            </li>
-                                            <li>
-                                                <h6 class="info-icon">Total <small>(Incl. tax)</small></h6>
-                                                <span>$360 USD</span>
-                                            </li>
-                                        </ul>
+                            <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5 mb-4">
+                                <div class="card box info-box">
+                                    <h6>Special Instructions</h6>
+                                    <div class="desc">
+                                        <p>Notify the restaurant of any dietary preferences, allergies, or any other
+                                            special requests</p>
                                     </div>
                                 </div>
                             </div>
