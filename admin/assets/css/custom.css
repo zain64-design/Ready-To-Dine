@@ -10,6 +10,8 @@
   --mid-clr-3: #212121;
   --mid-clr-4: #171725;
   --mid-clr-5: #4F4A4A;
+  --mid-clr-6: #15161A;
+  --mid-clr-7: #323236;
   --white-clr: #fff;
   --black-clr: #000;
   --grey-clr: #64748b;
@@ -900,10 +902,7 @@ margin-bottom: 16px;
 }
 .sec-home-area .branch-area .book-btn .form-check-input {
   position: absolute;
-  top: 0;
-  left: 0;
   right: 0;
-  bottom: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
@@ -1636,7 +1635,7 @@ margin-bottom: 6px;
 .sec-earnings {
   margin-top: 176px;
   padding-top: 47px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .sec-earnings .head {
   display: flex;
@@ -1697,6 +1696,79 @@ margin-bottom: 6px;
 }
 .sec-earnings .earing-box .chart {
 
+}
+.sec-earnings .transactions-area .tp-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+.sec-earnings .transactions-area .tp-area h4 {
+  font-size: 24px;
+  color: var(--black-clr);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.sec-earnings .transactions-area .tp-area .filter-btn {
+  height: 56px;
+  font-size: 18px;
+  max-width: 100%;
+  width: 253px;
+  border-radius: 8px;
+}
+.sec-earnings .transactions-area h6 {
+  font-size: 24px;
+  color: var(--black-clr);
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 24px 0 43px;
+}
+.sec-earnings .transactions-area .transaction-result .staff-box {
+  background: var(--white-bg);
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 4px 18px 0px var(--shadow);
+  padding: 16px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.sec-earnings .transactions-area .transaction-result>.row>.col-12:not(:last-child) .staff-box {
+  margin-bottom: 16px;
+}
+.sec-earnings .transactions-area .transaction-result .staff-box figure {
+  margin: 0;
+}
+.sec-earnings .transactions-area .transaction-result .staff-box figure .thumb {
+  height: 62px;
+  width: 62px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.sec-earnings .transactions-area .transaction-result .staff-box .desc {
+}
+.sec-earnings .transactions-area .transaction-result .staff-box .desc h6 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--mid-clr-7);
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.sec-earnings .transactions-area .transaction-result .staff-box .desc span {
+  font-size: 18px;
+  color: var(--green-clr);
+  display: block;
+}
+.sec-earnings .transactions-area .transaction-result .staff-box h5 {
+  margin: 0 0 0 auto;
+  display: block;
+  color: var(--mid-clr-6);
+  font-size: 24px;
+  font-weight: 700;
 }
 /***************************** sec-earnings close *****************************/
 
@@ -3524,14 +3596,12 @@ margin-bottom: 6px;
   background: var(--prim-bg);
   color: var(--white-clr);
   box-shadow: none;
-  border: 1px solid var(--prim-clr);
 }
 
 .sec-date-time .form-main .day-select-area .day-select li .ct-rd:hover {
   background: var(--prim-bg);
   color: var(--white-clr);
   box-shadow: none;
-  border: 1px solid var(--prim-clr);
 }
 
 .sec-date-time .form-main .time-select-area {
@@ -3789,14 +3859,6 @@ margin-bottom: 6px;
   font-weight: 600;
   font-size: 24px;
   margin-top: 58px;
-}
-.sec-edit-schedule .form-main .skip-btn {
-  font-weight: 500;
-  font-size: 18px;
-  margin-top: 16px;
-  color: var(--black-clr);
-  text-align: center;
-  display: block;
 }
 
 /***************************** sec-booking close *****************************/
@@ -5736,7 +5798,7 @@ section.sec-my-account-main {
 }
 
 section.sec-my-account-list {
-  margin: 0px 0px 60px;
+  margin: 0px 0px 137px;
 }
 
 .sec-my-account-list .my-acc-list {

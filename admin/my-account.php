@@ -204,7 +204,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="edit-restaurant-details.php">
+                                <a href="earnings.php">
                                     <div class="list-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
                                             viewBox="0 0 18 18" fill="none">

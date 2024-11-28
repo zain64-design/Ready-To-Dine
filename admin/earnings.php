@@ -68,6 +68,103 @@ include 'includes/header.php';
                                             <h5>$432.21</h5>
                                         </div>
                                     </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h6>Yesterday</h6>
+                            <div class="transaction-result">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                                        <div class="card staff-box">
+                                            <figure>
+                                                <img src="assets/images/my-account/profile/stf-1.png"
+                                                    class="img-fluid thumb" alt="">
+                                            </figure>
+                                            <div class="desc">
+                                                <h6>Rebecca Boyd</h6>
+                                                <span>Booking ID: 12345</span>
+                                            </div>
+                                            <h5>$432.21</h5>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -43,26 +43,6 @@ $(document).ready(function () {
     }
   });
 
-  $('.quantity-control').each(function () {
-    var $quantityInput = $(this).find('.quantity-input');
-
-    // Increment button
-    $(this).find('.quantity-right-plus').click(function (e) {
-      e.preventDefault();
-      var quantity = parseInt($quantityInput.val());
-      $quantityInput.val(quantity + 1);
-    });
-
-    // Decrement button
-    $(this).find('.quantity-left-minus').click(function (e) {
-      e.preventDefault();
-      var quantity = parseInt($quantityInput.val());
-      if (quantity > 1) {
-        $quantityInput.val(quantity - 1);
-      }
-    });
-  });
-
   // global ct select box start
   $('.ct-select .select-box').on('click', function () {
     $(this).next('.select-options').toggle().toggleClass("open");

@@ -214,7 +214,6 @@ include 'includes/header.php';
                                 <a href="add-special-deals.php" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
                                     submit
                                 </a>
-                                <a href="add-special-deals.php" class="btn skip-btn">Skip for later</a>
                             </div>
                         </div>
                     </form>
