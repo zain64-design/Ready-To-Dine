@@ -1280,6 +1280,426 @@ margin-bottom: 6px;
 
 /***************************** sec-payment close *****************************/
 
+/***************************** sec-restaurant-management start *****************************/
+.sec-restaurant-management {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+.sec-restaurant-management .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-restaurant-management .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-restaurant-management .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-restaurant-management .form-area .add-btn {
+  height: 72px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 64px;
+  text-transform: none;
+}
+.sec-restaurant-management .form-area .search-area {
+  margin: 42px 0 51px;
+}
+
+.sec-restaurant-management .form-area .search-area .input-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid var(--grey-clr-7);
+  padding: 16px;
+  background: var(--white-bg);
+  font-weight: 400;
+}
+
+.sec-restaurant-management .form-area .search-area .input-main input {
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  color: var(--black-clr);
+  font-size: 18px;
+}
+
+.sec-restaurant-management .form-area .search-area .input-main input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.sec-restaurant-management .form-area .search-area .input-main input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.sec-restaurant-management .form-area .search-area .input-main input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.sec-restaurant-management .form-area .search-area .input-main input:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--grey-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.sec-restaurant-management .form-area .search-area .input-main button {
+  padding: 0;
+  color: var(--grey-clr);
+  font-size: 18px;
+}
+.sec-restaurant-management .form-area .search-result-area .ct-tabs .nav-pills {
+  gap: 20px;
+  margin: 0 0 51px;
+}
+
+.sec-restaurant-management .form-area .search-result-area .ct-tabs .nav-pills .nav-item .nav-link {
+  background: var(--sec-clr);
+  border: none;
+  color: var(--prim-clr);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 600;
+  height: 48px;
+  min-width: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+.sec-restaurant-management .form-area .search-result-area .ct-tabs .nav-pills .nav-item .nav-link:hover {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+}
+
+.sec-restaurant-management .form-area .search-result-area .ct-tabs .nav-pills .nav-item .nav-link.active {
+  background: var(--prim-bg);
+  color: var(--white-clr);
+}
+.sec-restaurant-management .form-area .search-result-area .search-result {
+
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box {
+  background: var(--white-bg);
+  border-radius: 16px;
+  border: 1px solid var(--grey-clr-6);
+  padding: 20px 16px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+.sec-restaurant-management .form-area .search-result-area .search-result>.row>.col-12:not(:last-child) .staff-box {
+  margin-bottom: 16px;
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box figure {
+  margin: 0;
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box figure .thumb {
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box .desc {
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box .desc h6 {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--black-clr);
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box .desc span {
+  font-size: 18px;
+  color: var(--grey-clr);
+  display: block;
+}
+.sec-restaurant-management .form-area .search-result-area .search-result .staff-box .edit-btn {
+  margin: 0 0 0 auto;
+  display: block;
+}
+/***************************** sec-restaurant-management close *****************************/
+
+/***************************** sec-edit-add-staff start *****************************/
+.sec-edit-add-staff {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 150px;
+}
+.sec-edit-add-staff .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-edit-add-staff .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-edit-add-staff .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-edit-add-staff .form-main {
+  margin-top: 40px;
+}
+.sec-edit-add-staff .form-main .img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 76px;
+}
+.sec-edit-add-staff .form-main .img-area figure {
+  margin: 0;
+  position: relative;
+}
+
+.sec-edit-add-staff .form-main .img-area .person-img {
+  width: 157px;
+  height: 157px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  box-sizing: content-box;
+}
+.sec-edit-add-staff .form-main .img-area .edit-icon {
+  height: 47px;
+  width: 47px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--prim-bg);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sec-edit-add-staff .form-main .img-area .edit-icon>img {
+  height: 21px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-edit-add-staff .form-main .submit-btn {
+  height: 71px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 100px;
+}
+.sec-edit-add-staff .form-main .inp-main {
+  margin-bottom: 36px;
+}
+.sec-edit-add-staff .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--mid-clr-2);
+  margin-bottom: 8px;
+}
+.sec-edit-add-staff .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 17px 12px;
+  border-radius: 10px;
+  height: 56px;
+  width: 100%;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-edit-add-staff .form-main .inp-main .ct-inp.check-icon {
+  background-image: url(../images/my-account/icons/check-circle.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 24px;
+  padding: 16px 40px 16px 16px;
+}
+.sec-edit-add-staff .form-main .inp-main .field-icon {
+  position: absolute;
+  right: 10px;
+  top: 70%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: var(--black-clr);
+}
+.sec-edit-add-staff .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--black-clr);
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--black-clr);
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--black-clr);
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--black-clr);
+}
+.sec-edit-add-staff .form-main .inp-main .ct-select {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 17px 16px 17px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  height: 56px;
+  width: 100%;
+  align-content: center;
+  text-transform: capitalize;
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-select .select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-select .select-box i {
+  display: inline-flex;
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-select .select-box i img {
+  display: block;
+  height: auto;
+  width: 12px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-select .select-options {
+  display: none;
+  position: absolute;
+  top: 115%;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  border-radius: 10px;
+  font-size: 18px;
+  color: var(--black-clr);
+  z-index: 100;
+}
+
+.sec-edit-add-staff .form-main .inp-main .ct-select .select-options .option {
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+.sec-edit-add-staff .form-main .inp-main .ct-select .select-options .option:not(:last-child) {
+  padding-bottom: 16px;
+}
+/***************************** sec-edit-add-staff close *****************************/
+
+/***************************** sec-earnings start *****************************/
+.sec-earnings {
+  margin-top: 176px;
+  padding-top: 47px;
+  padding-bottom: 100px;
+}
+.sec-earnings .head {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.sec-earnings .head .back-btn {
+  font-size: 20px;
+  color: var(--black-clr);
+}
+
+.sec-earnings .head h6 {
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: var(--black-clr);
+}
+.sec-earnings .earing-box {
+  border-radius: 16px;
+  border: none;
+  padding: 16px 17px 0 13px;
+  margin-top: 48px;
+}
+.sec-earnings .earing-box .tp-area {
+ display: flex;
+ align-items: flex-start;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.sec-earnings .earing-box .tp-area .lt-area {
+
+}
+.sec-earnings .earing-box .tp-area .lt-area h5 {
+ font-size: 24px;
+ font-weight: 700;
+ color: var(--black-clr);
+ text-transform: capitalize;
+ margin-bottom: 8px;
+
+}
+.sec-earnings .earing-box .tp-area .lt-area h6 b {
+ color: var(--prim-clr);
+ font-size: 24px;
+}
+.sec-earnings .earing-box .tp-area .lt-area h6 {
+ font-weight: 500;
+ color: #0BB57B;
+ font-size: 18px;
+}
+.sec-earnings .earing-box .tp-area .select-ct select {
+ border: none;
+ border-radius: 0;
+ color: var(--green-clr);
+ font-size: 18px;
+ font-weight: 500;
+}
+.sec-earnings .earing-box .chart {
+
+}
+/***************************** sec-earnings close *****************************/
+
 /***************************** sec-upload-menu start *****************************/
 .sec-upload-menu {
   margin-top: 176px;
@@ -4420,6 +4840,182 @@ background-size: 15px 15px;
 
 /***************************** sec-item-detail close *****************************/
 
+/***************************** sec-edit-profile start *****************************/
+.sec-edit-profile {
+  overflow: visible;
+  padding-bottom: 100px;
+}
+
+.sec-edit-profile .top-bar-area {
+  z-index: 1;
+  position: relative;
+  margin-top: -90px;
+}
+
+.sec-edit-profile .top-bar-area .ct-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.sec-edit-profile .top-bar-area .ct-flex .img-area {
+
+}
+
+.sec-edit-profile .top-bar-area .ct-flex .img-area figure {
+  margin: 0;
+  position: relative;
+}
+
+.sec-edit-profile .top-bar-area .ct-flex .img-area figure .person-img {
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 6px solid var(--white-clr);
+  box-sizing: content-box;
+}
+.sec-edit-profile .top-bar-area .ct-flex .img-area figure .edit-icon {
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--prim-bg);
+  border: 5px solid var(--white-clr);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sec-edit-profile .top-bar-area .ct-flex .img-area figure .edit-icon {
+
+}
+
+.sec-edit-profile .top-bar-area .ct-flex .desc {
+  margin-bottom: 20px;
+}
+
+.sec-edit-profile .top-bar-area .ct-flex .desc h6 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--black-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main {
+  margin-top: 62px;
+}
+.sec-edit-profile .form-main .submit-btn {
+  height: 71px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 45px;
+}
+.sec-edit-profile .form-main .inp-main {
+  margin-bottom: 36px;
+}
+.sec-edit-profile .form-main .inp-main label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--black-clr);
+  margin-bottom: 8px;
+}
+.sec-edit-profile .form-main .inp-main .ct-inp {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 16px;
+  border-radius: 8px;
+  height: 54px;
+  width: 100%;
+  color: var(--grey-clr-2);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+.sec-edit-profile .form-main .inp-main .ct-inp.check-icon {
+  background-image: url(../images/my-account/icons/check-circle.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 24px;
+  padding: 16px 40px 16px 16px;
+}
+.sec-edit-profile .form-main .inp-main .ct-inp.locate-icon {
+  background-image: url(../images/my-account/icons/location-icon.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.8rem center;
+  background-size: 24px;
+  padding: 16px 40px 16px 16px;
+}
+.sec-edit-profile .form-main .inp-main .ct-inp::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-inp::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-inp:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-inp:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+.sec-edit-profile .form-main .inp-main .ct-txt {
+  background: var(--white-bg);
+  border: 1px solid var(--grey-clr-6);
+  padding: 12px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  color: var(--black-clr);
+  position: relative;
+  line-height: normal;
+  font-size: 18px;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-txt::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-txt::-moz-placeholder {
+  /* Firefox 19+ */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-txt:-ms-input-placeholder {
+  /* IE 10+ */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+.sec-edit-profile .form-main .inp-main .ct-txt:-moz-placeholder {
+  /* Firefox 18- */
+  color: var(--green-clr);
+  text-transform: capitalize;
+}
+
+
+/***************************** sec-edit-profile close *****************************/
+
 /***************************** sec-reject start *****************************/
 .sec-reject {
   margin-top: 176px;
@@ -5227,6 +5823,10 @@ section.sec-my-account-list {
 
 .sec-change-password-main .edit-form button.save-btn {
   margin-top: 11px;
+  height: 72px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .sec-change-password-main {

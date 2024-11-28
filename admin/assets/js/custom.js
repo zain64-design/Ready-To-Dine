@@ -10,7 +10,7 @@ $(document).ready(function () {
   let filename = url.substring(url.lastIndexOf('/') + 1);
 
   // For inner pages, show light logo and transparent navbar
-  if (filename == "restaurant-details.php" || filename == "special-deals.php" || filename == "item-details.php" || filename == "menu-customize.php" || filename == "edit-menu-customize.php") {
+  if (filename == "item-details.php" || filename == "edit-profile.php") {
     $("header").addClass("white-logo-page");
   }
 
