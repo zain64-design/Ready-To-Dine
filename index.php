@@ -31,7 +31,32 @@ include 'includes/header.php';
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-                                <button class="btn ct-btn-prim hvr-bounce-to-right filter-btn">filters</button>
+                                <div class="ct-drp dropdown">
+                                    <button class="btn ct-btn-prim hvr-bounce-to-right filter-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        filters
+                                    </button>
+                                    <div class="ct-menu dropdown-menu">
+                                        <div class="rest-locate">
+                                            <h6>select restaurant's location</h6>
+                                            <input type="search" class="form-control location">
+                                        </div>
+                                        <div class="rest-locate">
+                                            <h6>select restaurant's location</h6>
+                                            <a href="add-bank-details.php" class="location">10252 Pfeffer Drive</a>
+                                        </div>
+                                        <div class="rest-locate">
+                                            <h6>select restaurant's location</h6>
+                                            <a href="add-bank-details.php" class="location">171 Prosacco View Apt.
+                                                804</a>
+                                        </div>
+                                        <div class="ct-flex">
+                                        <button type="button" class="btn ct-btn-prim-light hvr-bounce-to-right-two reset-btn">reset</button>
+                                        <a href="location.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right  apply-btn">apply</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </form>
@@ -65,7 +90,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -97,7 +123,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -129,7 +156,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -317,7 +345,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -347,7 +376,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -377,7 +407,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -417,7 +448,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -452,7 +484,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>
@@ -487,7 +520,8 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                     <div class="btm-area">
-                                        <a href="restaurant-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
+                                        <a href="restaurant-details.php"
+                                            class="btn ct-btn-prim hvr-bounce-to-right more-btn">See
                                             More</a>
                                     </div>
                                 </div>

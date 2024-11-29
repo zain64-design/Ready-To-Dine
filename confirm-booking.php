@@ -231,7 +231,7 @@ include 'includes/header.php';
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                                <button  type="button" data-bs-toggle="modal" data-bs-target="#booking-popup" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
+                                <button  type="button" data-bs-toggle="modal" data-bs-target="#booking" class="btn ct-btn-prim hvr-bounce-to-right submit-btn">
                                     Confirm Booking
                                 </button>
                             </div>
