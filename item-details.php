@@ -21,7 +21,11 @@ include 'includes/header.php';
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
+                    <div class="back-area">
+                            <a href="special-deals.php" class="back-btn">
+                                <i class="fa-light fa-arrow-left"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -17,11 +17,16 @@
 include 'includes/header.php';
 ?>
     <main>
-        <section class="sec-inner-banner restaurant-banner" data-bg-image="assets/images/banner/special-deals-banner.png">
+        <section class="sec-inner-banner restaurant-banner"
+            data-bg-image="assets/images/banner/special-deals-banner.png">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-
+                        <div class="back-area">
+                            <a href="restaurant-details.php" class="back-btn">
+                                <i class="fa-light fa-arrow-left"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,7 +46,8 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="rt-area">
-                                    <a href="book-table.php" class="btn ct-btn-prim hvr-bounce-to-right book-btn">Book Your
+                                    <a href="book-table.php" class="btn ct-btn-prim hvr-bounce-to-right book-btn">Book
+                                        Your
                                         Arrival Time</a>
                                 </div>
                             </div>
@@ -71,7 +77,9 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                         <div class="btm-area">
-                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item Details</a>
+                                            <a href="item-details.php"
+                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item
+                                                Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,7 +101,9 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                         <div class="btm-area">
-                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item Details</a>
+                                            <a href="item-details.php"
+                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item
+                                                Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -115,7 +125,9 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                         <div class="btm-area">
-                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item Details</a>
+                                            <a href="item-details.php"
+                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item
+                                                Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +149,9 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                         <div class="btm-area">
-                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item Details</a>
+                                            <a href="item-details.php"
+                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item
+                                                Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +173,9 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                         <div class="btm-area">
-                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item Details</a>
+                                            <a href="item-details.php"
+                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item
+                                                Details</a>
                                         </div>
                                     </div>
                                 </div>
@@ -181,7 +197,9 @@ include 'includes/header.php';
                                             </div>
                                         </div>
                                         <div class="btm-area">
-                                            <a href="item-details.php" class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item Details</a>
+                                            <a href="item-details.php"
+                                                class="btn ct-btn-prim hvr-bounce-to-right more-btn">See Item
+                                                Details</a>
                                         </div>
                                     </div>
                                 </div>

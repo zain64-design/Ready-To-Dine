@@ -1664,6 +1664,16 @@ footer .center-area p a:hover {
   height: 487px;
   z-index: 1;
 }
+.sec-inner-banner.restaurant-banner .back-area {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.sec-inner-banner.restaurant-banner .back-area .back-btn {
+  font-size: 20px;
+  color: var(--white-clr);
+}
 
 .sec-inner-banner.restaurant-banner::before {
   content: "";
