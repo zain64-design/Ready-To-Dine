@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
   --prim-clr: #0e70f8;
@@ -2730,6 +2730,13 @@ main.menu-customize-main {
   padding: 47px 0 67px 0;
 }
 
+main:has(.sec-booking-table.calendar-open) {
+  overflow: visible;
+}
+.sec-booking-table.calendar-open {
+  overflow: visible;
+}
+
 .sec-booking-table .head {
   display: flex;
   align-items: center;
@@ -2881,6 +2888,7 @@ main.menu-customize-main {
 
 .sec-booking-table .form-main .inp-main {
   margin-bottom: 58px;
+  position: relative;
 }
 
 .sec-booking-table .form-main .inp-main label {
@@ -2980,6 +2988,7 @@ main.menu-customize-main {
 
 .sec-booking-table .form-main .inp-main .ct-inp[type="date"]::-webkit-calendar-picker-indicator {
   background: none;
+  pointer-events: none;
 }
 
 .sec-booking-table .form-main .inp-main .ct-inp.date-icon {
@@ -3000,6 +3009,127 @@ main.menu-customize-main {
     filter: brightness(0) saturate(100%) invert(39%) sepia(81%) saturate(5330%) hue-rotate(207deg) brightness(100%) contrast(95%);
   }
 }
+
+/* Custom Calendar Container */
+.sec-booking-table .form-main .calendar-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fcfcfc;
+  box-shadow: 5px 34px 80px 0px rgba(0, 0, 0, 0.15);
+  padding: 25px 38px 33px;
+  width: 100%;
+  max-width: 600px;
+  z-index: 999;
+  border-radius: 16px;
+  margin-top: 10px;
+}
+
+/* Header with month navigation */
+.sec-booking-table .form-main .calendar-container .calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #A3A3A6;
+  padding-bottom: 26px;
+  margin-bottom: 19px;
+}
+
+/* Navigation buttons */
+.sec-booking-table .form-main .calendar-container .month-nav {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 3px solid #F6F6F6;
+  background: var(--white-bg);
+  color: #B3B3B3;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+  height: 58px;
+  width: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Display the current month and year */
+.sec-booking-table .form-main .calendar-container .month-year {
+  font-family: 'Poppins',sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Weekday headers (Mon, Tue, etc.) */
+.sec-booking-table .form-main .calendar-container .calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 8px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sec-booking-table .form-main .calendar-container .calendar-weekdays .day {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: 500;
+  color: #B3B3B3;
+}
+
+/* Days grid layout */
+.sec-booking-table .form-main .calendar-container .calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+  margin-top: 10px;
+}
+
+/* Style for day cells */
+.sec-booking-table .form-main .calendar-container .calendar-days .day {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 500;
+  color: #1b1b1b;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Hover effect for day cells */
+.sec-booking-table .form-main .calendar-container .calendar-days .day:hover {
+  background-color: #f0f0f0;
+}
+
+/* Selected day style */
+.sec-booking-table .form-main .calendar-container .calendar-days .day.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Disabled days (from previous/next month) */
+.sec-booking-table .form-main .calendar-container .calendar-days .day.disabled {
+  color: #B3B3B3;
+  cursor: default;
+}
+
+/* Done button */
+.sec-booking-table .form-main .calendar-container .cld-btn {
+  width: 192px;
+  max-width: 100%;
+  height: 63px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'Roboto',sans-serif;
+  border-radius: 15px;
+  margin: 27px 0 0 auto;
+}
+
+
 
 .sec-booking-table .ct-tabs .nav-pills {
   gap: 5px 24px;
@@ -6658,6 +6788,33 @@ section.login-page.sign-up {
     min-width: 150px;
   }
 
+  .sec-booking-table .form-main .calendar-container {
+    padding: 10px;
+  }
+  .sec-booking-table .form-main .calendar-container .month-year {
+    font-size: 22px;
+  }
+  .sec-booking-table .form-main .calendar-container .month-nav {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-weekdays .day {
+    font-size: 22px;
+    height: 50px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-days .day {
+    font-size: 22px;
+    height: 50px;
+  }
+  .sec-booking-table .form-main .calendar-container .cld-btn {
+    margin: 10px 0 0 auto;
+  }
+
   /* sec-booking-table 768px to 991px close */
 
   /* sec-booking 768px to 991px start */
@@ -6917,6 +7074,33 @@ section.login-page.sign-up {
 
   .sec-booking-table .form-main .deals-info {
     margin-top: 30px;
+  }
+
+  .sec-booking-table .form-main .calendar-container {
+    padding: 10px;
+  }
+  .sec-booking-table .form-main .calendar-container .month-year {
+    font-size: 22px;
+  }
+  .sec-booking-table .form-main .calendar-container .month-nav {
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-weekdays .day {
+    font-size: 22px;
+    height: 50px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-days .day {
+    font-size: 22px;
+    height: 50px;
+  }
+  .sec-booking-table .form-main .calendar-container .cld-btn {
+    margin: 10px 0 0 auto;
   }
 
   /* sec-booking-table 576px to 767px close */
@@ -7313,7 +7497,32 @@ section.login-page.sign-up {
   .sec-booking-table .form-main .deals-info {
     margin-top: 30px;
   }
-
+  .sec-booking-table .form-main .calendar-container {
+    padding: 10px;
+  }
+  .sec-booking-table .form-main .calendar-container .month-year {
+    font-size: 16px;
+  }
+  .sec-booking-table .form-main .calendar-container .month-nav {
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-header {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-weekdays .day {
+    font-size: 16px;
+    height: 40px;
+  }
+  .sec-booking-table .form-main .calendar-container .calendar-days .day {
+    font-size: 16px;
+    height: 40px;
+  }
+  .sec-booking-table .form-main .calendar-container .cld-btn {
+    margin: 10px auto 0;
+  }
   /* sec-booking-table 250px to 575px close */
 
   /* sec-booking 250px to 575px start */

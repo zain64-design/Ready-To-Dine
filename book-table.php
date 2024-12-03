@@ -34,13 +34,16 @@ include 'includes/header.php';
                                     <label for="" class="ct-lbl">Guests <span>(Including you)</span></label>
                                     <div class="input-group quantity-control">
                                         <span class="input-group-btn">
-                                            <button type="button" class="quantity-left-minus btn btn-quant btn-number" data-type="minus">
+                                            <button type="button" class="quantity-left-minus btn btn-quant btn-number"
+                                                data-type="minus">
                                                 <i class="fa-regular fa-minus"></i>
                                             </button>
                                         </span>
-                                        <input type="text" class="quantity-input form-control input-number" value="10" min="1" max="100">
+                                        <input type="text" class="quantity-input form-control input-number" value="10"
+                                            min="1" max="100">
                                         <span class="input-group-btn">
-                                            <button type="button" class="quantity-right-plus btn btn-quant btn-number" data-type="plus">
+                                            <button type="button" class="quantity-right-plus btn btn-quant btn-number"
+                                                data-type="plus">
                                                 <i class="fa-regular fa-plus"></i>
                                             </button>
                                         </span>
@@ -115,7 +118,7 @@ include 'includes/header.php';
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
                                 <div class="inp-main">
-                                <label for="">Select Duration</label>
+                                    <label for="">Select Duration</label>
                                     <div class="ct-select">
                                         <div class="select-box">
                                             <span class="selected-option">Select Duration</span>
@@ -134,8 +137,20 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="inp-main">
-                                <label for="">Select Duration</label>
-                                <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" class="form-control ct-inp date-icon" placeholder="Select a Date" required="">
+                                    <label for="">Select Duration</label>
+                                    <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                        id="date" class="form-control ct-inp date-icon" placeholder="Select a Date">
+                                    <!-- Custom Calendar UI -->
+                                    <div id="custom-calendar" class="calendar-container" style="display:none;">
+                                        <div class="calendar-header">
+                                            <button type="button" id="prev-month" class="month-nav"><i class="fa-solid fa-chevron-left"></i></button>
+                                            <span id="calendar-month-year" class="month-year"></span>
+                                            <button type="button" id="next-month" class="month-nav"><i class="fa-solid fa-chevron-right"></i></button>
+                                        </div>
+                                        <div id="calendar-weekdays" class="calendar-weekdays"></div>
+                                        <div id="calendar-days" class="calendar-days"></div>
+                                        <button type="button" id="done" class="btn ct-btn-prim hvr-bounce-to-right cld-btn">Done</button>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -157,6 +172,7 @@ include 'includes/header.php';
 include 'includes/footer.php';
 include 'includes/scripts.php';
 ?>
+    <script src="assets/js/calender.js"></script>
 </body>
 
 </html>
