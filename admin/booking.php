@@ -67,7 +67,7 @@ include 'includes/header.php';
                                                 </div>
                                                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
                                                     <button
-                                                        class="btn ct-btn-prim hvr-bounce-to-right filter-btn">filters</button>
+                                                        class="btn ct-btn-prim hvr-bounce-to-right filter-btn mt-3 mt-sm-3 mt-md-3 mt-lg-0 mt-xl-0 mt-xxl-0">filters</button>
                                                 </div>
                                             </div>
                                         </form>
@@ -418,6 +418,171 @@ include 'includes/header.php';
                                             <div class="deals-info">
                                                 <h6>8 September 2024</h6>
                                                 <div class="row">
+                                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                        <div class="card book-box">
+                                                            <h4>Location</h4>
+                                                            <h6>10252 Pfeffer Drive</h6>
+                                                            <div class="mid-area">
+                                                                <div class="info-box">
+                                                                    <h5>Guest's Name</h5>
+                                                                    <span>Jack Dave</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Booking ID</h5>
+                                                                    <span>#440258</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Persons</h5>
+                                                                    <span>4</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Time</h5>
+                                                                    <span>5:30-6:30 PM</span>
+                                                                </div>
+                                                            </div>
+                                                            <a href="booking-details.php"
+                                                                class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
+                                                                Details</a>
+                                                                <div class="actions-area">
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#order-success" class="btn outline-btn">
+                                                                        accept
+                                                                    </button>
+                                                                    <a href="reject-booking.php" class="btn outline-btn">reject</a>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                        <div class="card book-box">
+                                                            <h4>Location</h4>
+                                                            <h6>10252 Pfeffer Drive</h6>
+                                                            <div class="mid-area">
+                                                                <div class="info-box">
+                                                                    <h5>Guest's Name</h5>
+                                                                    <span>Jack Dave</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Booking ID</h5>
+                                                                    <span>#440258</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Persons</h5>
+                                                                    <span>4</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Time</h5>
+                                                                    <span>5:30-6:30 PM</span>
+                                                                </div>
+                                                            </div>
+                                                            <a href="booking-details.php"
+                                                                class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
+                                                                Details</a>
+                                                                <div class="actions-area">
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#order-success" class="btn outline-btn">
+                                                                        accept
+                                                                    </button>
+                                                                    <a href="reject-booking.php" class="btn outline-btn">reject</a>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                        <div class="card book-box">
+                                                            <h4>Location</h4>
+                                                            <h6>10252 Pfeffer Drive</h6>
+                                                            <div class="mid-area">
+                                                                <div class="info-box">
+                                                                    <h5>Guest's Name</h5>
+                                                                    <span>Jack Dave</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Booking ID</h5>
+                                                                    <span>#440258</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Persons</h5>
+                                                                    <span>4</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Time</h5>
+                                                                    <span>5:30-6:30 PM</span>
+                                                                </div>
+                                                            </div>
+                                                            <a href="booking-details.php"
+                                                                class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
+                                                                Details</a>
+                                                                <div class="actions-area">
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#order-success" class="btn outline-btn">
+                                                                        accept
+                                                                    </button>
+                                                                    <a href="reject-booking.php" class="btn outline-btn">reject</a>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                        <div class="card book-box">
+                                                            <h4>Location</h4>
+                                                            <h6>10252 Pfeffer Drive</h6>
+                                                            <div class="mid-area">
+                                                                <div class="info-box">
+                                                                    <h5>Guest's Name</h5>
+                                                                    <span>Jack Dave</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Booking ID</h5>
+                                                                    <span>#440258</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Persons</h5>
+                                                                    <span>4</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Time</h5>
+                                                                    <span>5:30-6:30 PM</span>
+                                                                </div>
+                                                            </div>
+                                                            <a href="booking-details.php"
+                                                                class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
+                                                                Details</a>
+                                                                <div class="actions-area">
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#order-success" class="btn outline-btn">
+                                                                        accept
+                                                                    </button>
+                                                                    <a href="reject-booking.php" class="btn outline-btn">reject</a>
+                                                                </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                                                        <div class="card book-box">
+                                                            <h4>Location</h4>
+                                                            <h6>10252 Pfeffer Drive</h6>
+                                                            <div class="mid-area">
+                                                                <div class="info-box">
+                                                                    <h5>Guest's Name</h5>
+                                                                    <span>Jack Dave</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Booking ID</h5>
+                                                                    <span>#440258</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Persons</h5>
+                                                                    <span>4</span>
+                                                                </div>
+                                                                <div class="info-box">
+                                                                    <h5>Time</h5>
+                                                                    <span>5:30-6:30 PM</span>
+                                                                </div>
+                                                            </div>
+                                                            <a href="booking-details.php"
+                                                                class="btn ct-btn-prim hvr-bounce-to-right view-btn">View
+                                                                Details</a>
+                                                                <div class="actions-area">
+                                                                    <button type="button" data-bs-toggle="modal" data-bs-target="#order-success" class="btn outline-btn">
+                                                                        accept
+                                                                    </button>
+                                                                    <a href="reject-booking.php" class="btn outline-btn">reject</a>
+                                                                </div>
+                                                        </div>
+                                                    </div>
                                                     <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                                                         <div class="card book-box">
                                                             <h4>Location</h4>

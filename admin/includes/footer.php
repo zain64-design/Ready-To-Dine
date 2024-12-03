@@ -10,11 +10,11 @@
                     </div>
                 </div>
                 <div
-                    class="mt-4 mt-sm-4 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-8 col-12">
+                    class="mt-4 mt-sm-4 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-8 col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12">
                     <div
-                        class="justify-content-center justify-content-sm-between justify-content-md-between justify-content-lg-between justify-content-xl-end justify-content-xxl-end row">
+                        class="justify-content-center justify-content-sm-between justify-content-md-end justify-content-lg-end justify-content-xl-end justify-content-xxl-end row">
                         <div
-                            class="ms-xl-4 ms-xxl-4 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6 col-12">
+                            class="ms-xl-4 ms-xxl-4 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-12">
                             <div class="categ-main">
                                 <h6>Links</h6>
                                 <ul>
@@ -26,21 +26,21 @@
                             </div>
                         </div>
                         <div
-                            class="ms-xl-4 ms-xxl-4 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-6 col-12">
+                            class="ms-xl-4 ms-xxl-4 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-2 col-xl-2 col-lg-3 col-md-3 col-sm-4 col-12">
                             <div class="categ-main">
                                 <h6>Legal</h6>
                                 <ul>
                                     <li><a href="about-app.php" class="hvr-underline-from-left-two">About Us</a></li>
                                     <li><a href="terms-conditions.php" class="hvr-underline-from-left-two">terms of use</a></li>
                                     <li><a href="privacy-policy.php" class="hvr-underline-from-left-two">privacy policy</a></li>
-                                    <li><a href="payment-method.php" class="hvr-underline-from-left-two">Payments</a>
+                                    <li><a href="payment.php" class="hvr-underline-from-left-two">Payments</a>
                                     </li>
                                     <li><a href="faqs.php" class="hvr-underline-from-left-two">FAQS</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div
-                            class="ms-xl-4 ms-xxl-4 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-3 col-xl-3 col-lg-6 col-md-6 col-sm-6 col-12">
+                            class="ms-xl-4 ms-xxl-4 mt-3 mt-sm-3 mt-md-0 mt-lg-0 mt-xl-0 mt-xxl-0 col-xxl-3 col-xl-3 col-lg-4 col-md-5 col-sm-4 col-12">
                             <div class="support-area">
                                 <h6>Contact Us</h6>
                                 <ul>

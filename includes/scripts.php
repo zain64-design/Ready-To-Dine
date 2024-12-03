@@ -17,4 +17,6 @@
 <script src="assets/js/popper.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0-rc.3/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 <script src="assets/js/custom.js"></script>

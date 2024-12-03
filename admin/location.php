@@ -42,7 +42,7 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-                                    <button class="btn ct-btn-prim hvr-bounce-to-right filter-btn">Apply</button>
+                                    <button class="btn ct-btn-prim hvr-bounce-to-right filter-btn mt-3 mt-sm-3 mt-md-3 mt-lg-0 mt-xl-0 mt-xxl-0">Apply</button>
                                 </div>
                             </div>
                         </div>

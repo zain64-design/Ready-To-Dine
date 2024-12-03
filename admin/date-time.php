@@ -22,7 +22,7 @@ include 'includes/header.php';
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                         <div class="head">
-                            <div class="d-flex align-items-end">
+                            <div class="d-flex align-items-end flex-wrap justify-content-center">
                                 <img src="assets/images/logo/logo-header-dark.png" class="logo" alt="">
                                 <h6>Time Slots</h6>
                             </div>

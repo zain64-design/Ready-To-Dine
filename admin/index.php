@@ -75,7 +75,7 @@ include 'includes/header.php';
                 </div>
                 <div class="stats-area">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 mb-3 mb-sm-3 mb-md-3 mb-lg-3 mb-xl-0 mb-xxl-0">
                             <div class="card earing-box">
                                 <div class="tp-area">
                                     <div class="lt-area">
@@ -94,9 +94,9 @@ include 'includes/header.php';
                                 <div id="chart1" class="chart"></div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6">
                             <div class="row gx-3">
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <div class="card stats-card">
                                         <figure>
                                             <img src="assets/images/home/stat1.png" class="img-fluid thumb" alt="">
@@ -107,7 +107,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <div class="card stats-card">
                                         <figure>
                                             <img src="assets/images/home/stat2.png" class="img-fluid thumb" alt="">
@@ -118,7 +118,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <div class="card stats-card">
                                         <figure>
                                             <img src="assets/images/home/stat3.png" class="img-fluid thumb" alt="">
@@ -129,7 +129,7 @@ include 'includes/header.php';
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                                     <div class="card stats-card">
                                         <figure>
                                             <img src="assets/images/home/stat4.png" class="img-fluid thumb" alt="">
@@ -157,7 +157,7 @@ include 'includes/header.php';
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <div class="card book-box">
                                 <h4>Location</h4>
                                 <h6>10252 Pfeffer Drive</h6>
@@ -182,7 +182,7 @@ include 'includes/header.php';
                                 <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <div class="card book-box">
                                 <h4>Location</h4>
                                 <h6>10252 Pfeffer Drive</h6>
@@ -207,7 +207,7 @@ include 'includes/header.php';
                                 <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <div class="card book-box">
                                 <h4>Location</h4>
                                 <h6>10252 Pfeffer Drive</h6>
@@ -232,7 +232,7 @@ include 'includes/header.php';
                                 <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <div class="card book-box">
                                 <h4>Location</h4>
                                 <h6>10252 Pfeffer Drive</h6>
@@ -257,7 +257,7 @@ include 'includes/header.php';
                                 <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <div class="card book-box">
                                 <h4>Location</h4>
                                 <h6>10252 Pfeffer Drive</h6>
@@ -282,7 +282,7 @@ include 'includes/header.php';
                                 <a href="booking-details.php" class="btn ct-btn-prim hvr-bounce-to-right view-btn">View Details</a>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                             <div class="card book-box">
                                 <h4>Location</h4>
                                 <h6>10252 Pfeffer Drive</h6>

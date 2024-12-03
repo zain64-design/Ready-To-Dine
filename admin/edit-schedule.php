@@ -26,7 +26,7 @@ include 'includes/header.php';
                             <h6>Edit Schedule</h6>
                         </div>
                         <div class="head-center">
-                            <div class="d-flex align-items-end">
+                            <div class="d-flex align-items-end flex-wrap justify-content-center">
                                 <img src="assets/images/logo/logo-header-dark.png" class="logo" alt="">
                                 <h6>Time Slots</h6>
                             </div>

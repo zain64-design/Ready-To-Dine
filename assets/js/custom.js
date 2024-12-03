@@ -88,6 +88,54 @@ $(document).ready(function () {
     $('.sec-cancellation .form-main .inp-txt').slideToggle();
 });
 
+$('.ct-menu').hide();
+$('.drp-tgl').click(function() {
+  let $dropdown = $(this).closest('.ct-drp');
+  $dropdown.find('.ct-menu').toggle();
+  $dropdown.toggleClass('open');
+});
+  // Prevent the dropdown from closing when interacting with dropdown inside ct-menu
+  $(".ct-drp .ct-menu").on('click', function (e) {
+    e.stopPropagation();  // Prevent closing when clicking inside the dropdown menu
+  });
+
+  // Close the menu when clicking anywhere outside of the ct-drp
+  $(document).on('click', function (e) {
+    if (!$(e.target).closest('.ct-drp').length) {
+      $('.ct-drp .ct-menu').removeClass('open');
+    }
+  });
+
+  // Prevent closing of the menu when clicking on the apply button
+  $(".apply-btn").on("click", function () {
+    // $('.ct-drp .ct-menu').removeClass('open');
+    $('.ct-drp .ct-menu').hide();
+  });
+
+  // Add functionality for reset button
+  $(".reset-btn").on("click", function () {
+    // Reset all filters to default state
+    $("#slider-range").slider("values", [50, 2000]);
+    $("#amount-plus").val("$2000");
+    $("input[type=checkbox]").prop("checked", false); // Uncheck all checkboxes
+  });
+
+$(function () {
+  $("#slider-range").slider({
+    range: true,
+    min: 0,
+    max: 3000,
+    values: [50, 2000],
+    slide: function (event, ui) {
+      // $("#amount").val("$" + ui.values[0]);
+      $("#amount-plus").val("$" + ui.values[1]);
+    }
+  });
+  // $("#amount").val("$" + $("#slider-range").slider("values", 0));
+  $("#amount-plus").val("$" + $("#slider-range").slider("values", 1));
+});
+
+
 // ratings
 
  $('.rating-user-stars').each(function() {
@@ -143,18 +191,18 @@ document.querySelectorAll(".pagination .page-link").forEach((link) => {
 });
 
     $('.drop-toggle').click(function() {
-      var $dropdown = $(this).closest('.custom-dropdown');
+      let $dropdown = $(this).closest('.custom-dropdown');
       $dropdown.find('.dropdown-options').toggle();
       $dropdown.toggleClass('open');
   });
 
   $('.dropdown-options .clear-btn').on('click', function() {
-      var $dropdown = $(this).closest('.custom-dropdown');
+      let $dropdown = $(this).closest('.custom-dropdown');
       $dropdown.find('.form-check-input').prop('checked', false);
   });
 
   $('.dropdown-options .ok-btn').click(function() {
-      var $dropdown = $(this).closest('.custom-dropdown');
+      let $dropdown = $(this).closest('.custom-dropdown');
       $dropdown.find('.dropdown-options').hide();
       $dropdown.removeClass('open');
   });

@@ -31,29 +31,202 @@ include 'includes/header.php';
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
-                                <div class="ct-drp dropdown">
-                                    <button class="btn ct-btn-prim hvr-bounce-to-right filter-btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
+                                <div class="ct-drp">
+                                    <button class="btn ct-btn-prim hvr-bounce-to-right filter-btn drp-tgl"
+                                        type="button">
                                         filters
                                     </button>
-                                    <div class="ct-menu dropdown-menu">
-                                        <div class="rest-locate">
-                                            <h6>select restaurant's location</h6>
-                                            <input type="search" class="form-control location">
+                                    <div class="ct-menu">
+                                        <div class="price-range">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <h6 class="price-head">Price Range</h6>
+                                                <input type="text" id="amount-plus" readonly class="sld-m-txt">
+                                            </div>
+                                            <div class="rang-slider">
+                                                <div id="slider-range"></div>
+                                            </div>
                                         </div>
                                         <div class="rest-locate">
-                                            <h6>select restaurant's location</h6>
-                                            <a href="add-bank-details.php" class="location">10252 Pfeffer Drive</a>
+                                            <h6>Location</h6>
+                                            <input type="search" class="form-control location"
+                                                placeholder="Select Location">
                                         </div>
-                                        <div class="rest-locate">
-                                            <h6>select restaurant's location</h6>
-                                            <a href="add-bank-details.php" class="location">171 Prosacco View Apt.
-                                                804</a>
+                                        <div class="inp-area">
+                                            <label for="delect-dietary-preferences">Select Dietary Preferences</label>
+                                            <div class="custom-dropdown">
+                                                <button class="drop-toggle" type="button">
+                                                    Select Dietary Preferences
+                                                    <span class="dropdown-arrow">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none">
+                                                            <mask id="mask0_5440_5481" style="mask-type:alpha"
+                                                                maskUnits="userSpaceOnUse" x="0" y="0" width="24"
+                                                                height="24">
+                                                                <rect width="24" height="24" fill="#D9D9D9" />
+                                                            </mask>
+                                                            <g mask="url(#mask0_5440_5481)">
+                                                                <path
+                                                                    d="M12 15.3746L6 9.37461L7.4 7.97461L12 12.5746L16.6 7.97461L18 9.37461L12 15.3746Z"
+                                                                    fill="#436F86" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </button>
+
+                                                <div class="dropdown-options">
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="Vegan">Vegan</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="Vegan">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="vegetarian">Vegetarian</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="vegetarian">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="gluten-free">Gluten-free</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="gluten-free">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="dairy-free">Dairy-free</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="dairy-free">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="halal">Halal</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="halal">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="Kosher">kosher</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="Kosher">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="low-carb">Low-carb</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="low-carb">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="paleo">Paleo</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="paleo">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="mediterranean">Mediterranean</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="mediterranean">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="pescatarian">Pescatarian</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="pescatarian">
+                                                    </div>
+                                                    <div class="dropdown-actions">
+                                                        <button type="button" class="clear-btn">Clear
+                                                            All</button>
+                                                        <button type="button" class="ok-btn">Ok</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="inp-area">
+                                            <label for="select-allergies">Select Allergies</label>
+                                            <div class="custom-dropdown">
+                                                <button class="drop-toggle" type="button">
+                                                    Select Allergies
+                                                    <span class="dropdown-arrow">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none">
+                                                            <mask id="mask0_5440_5481" style="mask-type:alpha"
+                                                                maskUnits="userSpaceOnUse" x="0" y="0" width="24"
+                                                                height="24">
+                                                                <rect width="24" height="24" fill="#D9D9D9" />
+                                                            </mask>
+                                                            <g mask="url(#mask0_5440_5481)">
+                                                                <path
+                                                                    d="M12 15.3746L6 9.37461L7.4 7.97461L12 12.5746L16.6 7.97461L18 9.37461L12 15.3746Z"
+                                                                    fill="#436F86" />
+                                                            </g>
+                                                        </svg>
+                                                    </span>
+                                                </button>
+
+                                                <div class="dropdown-options">
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="lactoseintolerance">Lactose
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="lactoseintolerance">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="gluten-intolerance">Gluten
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="gluten-intolerance">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="fructose-intolerance">Fructose
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="fructose-intolerance">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="histamine-intolerance">Histamine
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="histamine-intolerance">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="sorbitol-intolerance">Sorbitol
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="sorbitol-intolerance">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label" for="fodmap-intolerance">FODMAP
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="fodmap-intolerance">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="caffeine-sensitivity">Caffeine
+                                                            sensitivity</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="caffeine-sensitivity">
+                                                    </div>
+                                                    <div class="dropdown-option">
+                                                        <label class="form-check-label"
+                                                            for="salicylate-intolerance">Salicylate
+                                                            intolerance</label>
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="salicylate-intolerance">
+                                                    </div>
+                                                    <!-- More options -->
+                                                    <div class="dropdown-actions">
+                                                        <button type="button" class="clear-btn">Clear
+                                                            All</button>
+                                                        <button type="button" class="ok-btn">Ok</button>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="ct-flex">
-                                        <button type="button" class="btn ct-btn-prim-light hvr-bounce-to-right-two reset-btn">reset</button>
-                                        <a href="location.php"
-                                            class="btn ct-btn-prim hvr-bounce-to-right  apply-btn">apply</a>
+                                            <button type="button"
+                                                class="btn ct-btn-prim-light hvr-bounce-to-right-two reset-btn">reset</button>
+                                            <button type="button"
+                                                class="btn ct-btn-prim hvr-bounce-to-right  apply-btn">apply</button>
                                         </div>
                                     </div>
                                 </div>

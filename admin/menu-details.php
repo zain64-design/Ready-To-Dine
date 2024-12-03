@@ -29,7 +29,7 @@ include 'includes/header.php';
                 <div class="form-main">
                     <form action="">
                         <div class="row">
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                                 <div class="card rest-card">
                                     <figure>
                                         <img src="assets/images/booking/sl1.png" class="img-fluid" alt="">
@@ -103,7 +103,7 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                                 <div class="card rest-card">
                                     <figure>
                                         <img src="assets/images/booking/sl1.png" class="img-fluid" alt="">
@@ -177,7 +177,7 @@ include 'includes/header.php';
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                                 <div class="card rest-card">
                                     <figure>
                                         <img src="assets/images/booking/sl1.png" class="img-fluid" alt="">

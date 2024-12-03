@@ -20,6 +20,7 @@
   --grey-clr-7: #e2e8f0;
   --grey-clr-8: #F8F8F8;
   --grey-clr-9: #E0E1E1;
+  --grey-clr-10: #d9d9d9;
 
   --green-clr: #436f86;
 
@@ -869,44 +870,90 @@ footer .center-area p a:hover {
 
 .sec-home-search .ct-drp {
   max-width: 100%;
-}
-/* .sec-home-area .branch-area .ct-drp .ct-btn {
-  width: 100%;
-  height: 56px;
-  border-radius: 16px;
-  background-color: var(--white-bg);
-  color: var(--green-clr);
-  font-size: 24px;
-  text-align: left;
-  background-image: url(../images/chevron-down-2.png);
-  background-repeat: no-repeat;
-  background-position: right 1.2rem center;
-  background-size: 14px 9px;
-  padding: 0 30px 0 16px;
+  position: relative;
 }
 
-.sec-home-area .branch-area .ct-drp .ct-btn:first-child:active,.sec-home-area .branch-area .ct-drp .ct-btn.show {
-  border-color: var(--white-clr);
-} */
 .sec-home-search .ct-drp .ct-menu {
   width: 100%;
   min-width: 415px;
-  max-width: 100%;
-  margin-top: 20px !important;
+  max-width: 415px;
+  margin-top: 15px;
   box-shadow: 0px 4px 31.9px 0px rgba(0, 0, 0, 0.10);
-  border: 1px solid rgba(67, 111, 134, 0.50);
+  border: 1px solid rgba(67, 110, 134, 0.5);
   border-radius: 8px;
   padding: 28px 9px 11px;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+  background: var(--white-bg);
+}
+.price-range {
+  margin-bottom: 36px;
+  padding: 0 20px;
+}
+.price-range .rang-slider {
+  position: relative;
+  margin-top: 29px;
+}
+
+.price-range .rang-slider .ui-slider .ui-slider-handle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50px;
+  border: 1px solid var(--prim-clr);
+  top: -6px;
+  background-color: var(--prim-bg);
+  color: transparent;
+}
+
+.price-range .rang-slider .ui-slider .ui-slider-handle:active,
+.price-range .rang-slider .ui-slider .ui-slider-handle:focus-visible,
+.price-range .rang-slider .ui-slider .ui-slider-handle:hover {
+  background-color: #fff;
+  color: transparent;
+  outline: none;
+}
+
+.price-range .rang-slider .ui-slider-horizontal {
+  height: 4px;
   border: none;
-  right: 0 !important;
-  left: auto !important;
+  background-color: var(--grey-clr-10);
+  margin: 0 10px;
+}
+
+.price-range .rang-slider .ui-slider-range {
+  background-color: var(--prim-bg);
+}
+.price-range .price-head {
+  color: var(--mid-clr-2);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.price-range .sld-m-txt {
+  color: var(--mid-clr-2);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-align: right;
+  max-width: 100px;
+  height: 30px;
+}
+
+.price-range .rang-slider .sld-m-txt:focus {
+  outline: none;
+  box-shadow: none;
 }
 .sec-home-search .ct-drp .ct-menu .rest-locate {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 36px;
+  padding: 0 20px;
 }
 .sec-home-search .ct-drp .ct-menu .rest-locate h6 {
   font-size: 18px;
@@ -919,15 +966,15 @@ footer .center-area p a:hover {
   background-color: var(--grey-clr-8);
   border: 1px solid var(--grey-clr-6);
   border-radius: 10px;
-  height: 56px;
-  padding: 12px;
+  height: 48px;
+  padding: 12px 12px 12px 42px;
   color: var(--mid-clr-2);
-  font-size: 18px;
+  font-size: 16px;
   width: 100%;
-  background-image: url(../images/black-location.png);
+  background-image: url(../images/location-grey.png);
   background-repeat: no-repeat;
   background-size: 16px;
-  background-position: right 1.2rem center;
+  background-position: left 0.9rem center;
 }
 .sec-home-search .ct-drp .ct-menu .ct-flex {
   display: flex;
@@ -941,6 +988,145 @@ footer .center-area p a:hover {
    font-size: 18px;
    font-weight: 600;
    width: 50%;
+}
+.sec-home-search .ct-drp .ct-menu .inp-area {
+  margin-bottom: 36px;
+  padding: 0 20px;
+}
+.sec-home-search .ct-drp .ct-menu .inp-area label {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--mid-bg-2);
+  margin-bottom: 5px;
+}
+
+.sec-home-search .ct-drp .ct-menu .inp-area select {
+  border-radius: 10px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: #f8f8f8;
+  height: 55px;
+  color: var(--green-clr);
+  background-image: url(../images/my-account/icons/expand-more.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  background-size: 30px 25px;
+}
+
+.sec-home-search .ct-drp .ct-menu .inp-area select option {
+  color: var(--black-clr);
+  font-family: var(--font-1);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sec-home-search .custom-dropdown {
+  position: relative;
+  width: 100%;
+}
+
+.sec-home-search .drop-toggle {
+  width: 100%;
+  padding: 10px 15px;
+  background: white;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: #f8f8f8;
+  height: 55px;
+  color: var(--green-clr);
+  font-family: var(--font-1);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  border-radius: 10px;
+  border: 1px solid var(--grey-clr-6);
+  background-color: #f8f8f8;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-option {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-option label {
+  color: var(--green-clr);
+  font-family: var(--font-1);
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  border: 0.13rem solid var(--green-clr);
+  border-radius: 3px;
+  appearance: none;
+  -webkit-appearance: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+  align-items: center;
+  gap: 30px;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-actions .clear-btn {
+  color: var(--prim-bg);
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  background: var(--grey-clr-7);
+  height: auto;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: clamp(14px, 1.5vw, 18px);
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-actions .ok-btn {
+  color: white;
+  width: 50%;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: var(--prim-bg);
+  font-size: clamp(16px, 1.5vw, 18px);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sec-home-search .custom-dropdown .dropdown-options .dropdown-option input[type="checkbox"]:checked {
+  background-color: var(--black-bg);
+  --bs-form-check-bg-image: url(../images/notification/check-solid.svg);
+  background-size: 15px 15px;
 }
 
 .sec-home-search .nearby-area h5 {
@@ -3593,6 +3779,7 @@ main.menu-customize-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 16px;
 }
 
@@ -5570,7 +5757,7 @@ section.faqs-sec-wrap {
 /***************************** SEC-NOTIFICATION START *****************************/
 
 section.sec-notification-main-head {
-  padding-top: clamp(100px, 17vw, 200px);
+  padding-top: clamp(80px, 17vw, 200px);
   padding-bottom: clamp(50px, 7vw, 129px);
 }
 
@@ -6871,6 +7058,19 @@ section.login-page.sign-up {
     margin-top: 8px;
   }
 
+  .sec-home-search .ct-drp .ct-menu {
+    min-width: 100%;
+  }
+  .price-range {
+    padding: 0;
+  }
+  .sec-home-search .ct-drp .ct-menu .rest-locate {
+    padding: 0;
+  }
+  .sec-home-search .ct-drp .ct-menu .inp-area {
+    padding: 0;
+  }
+
   /* sec-home-search 250px to 575px close */
 
   /* sec-inner-banner restaurant-banner 250px to 575px start */
@@ -7035,7 +7235,7 @@ section.login-page.sign-up {
   }
 
   .sec-review-booking .form-main .box.menu-box {
-    padding: 17px 15px 20px;
+    padding: 17px 10px 20px;
   }
 
   .sec-review-booking .form-main .box.menu-box .items-area .item-box {
@@ -7051,6 +7251,10 @@ section.login-page.sign-up {
   }
 
   .sec-review-booking .form-main .box.menu-box .items-area .item-box .desc span {
+    font-size: 14px;
+  }
+
+  .sec-review-booking .form-main .box.menu-box .items-area .item-box .remove-icon a {
     font-size: 14px;
   }
 
@@ -7144,10 +7348,6 @@ section.login-page.sign-up {
     font-size: 18px;
   }
   /* sec-booking 250px to 575px close */
-
-  /* login-page 250px to 575px start */
-
-  /* login-page 250px to 575px close */
 
   .edit-form .btm-select-main .form-group {
     width: 100%;
